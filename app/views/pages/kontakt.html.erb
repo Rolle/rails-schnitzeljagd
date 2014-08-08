@@ -1,0 +1,60 @@
+<div class="bs-docs-header" id="content">
+  <div class="container">
+    <h1><span class="glyphicon glyphicon-comment"></span> Kontakt</h1>
+  </div>
+</div>
+
+<div class="container bs-docs-container">
+	<div class="row">
+		<div class="col-md-9" role="main">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3>Kontaktformular</h3>
+				</div>
+				<div class="panel-body">
+					<p>Fragen/Anregungen bitte über unser Kontaktformular. Falls wir dich per Telefon kontaktieren sollen, trage die Telefonnummer bitte im Text ein!</p>
+					<form action="http://www.rolandschmitt.info/cgi-bin/selfmail.rb" method="post" class="form-horizontal" role="form">
+
+						<input type="hidden" name="return" value="http://schnitzeljagd.rolandschmitt.info/danke_kontakt.html">
+						<input type="hidden" name="delimiter" value=": ">
+						<input type="hidden" name="subject" value="Schnitzeljagd 2015: Frage/Anregung">
+						<input type="hidden" name="website" value="">
+
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="lastname" name="lastname" placeholder="">
+					    	</div>
+				  		</div>				  		
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">EMail</label>
+					    	<div class="col-sm-6">
+					      		<input  class="form-control" id="email" name="email" placeholder="">
+					    	</div>
+				  		</div>	
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Text</label>
+					    	<div class="col-sm-8">
+					      		<textarea class="form-control" id="text" name="text" rows="8" placeholder=""></textarea>
+					    	</div>
+				  		</div>	
+					  	<div class="form-group">
+					    	<div class="col-sm-offset-2 col-sm-10">
+					      		<button type="submit" class="btn btn-primary">Absenden</button>
+					    	</div>
+					  	</div>
+					</form>
+				</div>
+			</div>		
+			<div class="panel panel-primary">
+				<div class="panel-body">
+					<p>Fragen und Anregungen könnt ihr ebenso loswerden, wenn ihr uns eine Mail unter <a href="mailto:schnitzeljagd@bergwerk-fell.de"><u>schnitzeljagd@bergwerk-fell.de</u></a> sendet.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+  enable_top_menu('kontakt');
+</script>
