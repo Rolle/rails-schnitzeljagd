@@ -108,42 +108,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/pages/anmeldung.html.erb",
+			"file": "app/views/contacts/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 4365,
+				"buffer_size": 3237,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/pages/index.html.erb",
+			"file": "app/views/registrations/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 4986,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/pages/strecke.html.erb",
-			"settings":
-			{
-				"buffer_size": 2482,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 3624,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/pages/anfahrt.html.erb",
-			"settings":
-			{
-				"buffer_size": 1645,
+				"buffer_size": 4118,
 				"line_ending": "Windows"
 			}
 		}
@@ -177,8 +153,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Projects/ruby/rails-schnitzeljagd",
+		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations"
+	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/Gemfile",
@@ -301,12 +292,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_avg_call_duration_pw.js.erb",
 		"/C/Projects/ruby/BigBrother/app/views/statistic/order.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_docimport.js.erb",
-		"/C/Projects/ruby/BigBrother/app/views/statistic/session.html.erb",
-		"/C/Projects/ruby/BigBrother/app/models/user.rb",
-		"/C/Projects/ruby/BigBrother/app/helpers/sessions_helper.rb",
-		"/C/Projects/ruby/BigBrother/app/controllers/order_controller.rb",
-		"/C/Projects/ruby/BigBrother/app/controllers/application_controller.rb",
-		"/C/Projects/ruby/BigBrother/app/controllers/sessions_controller.rb"
+		"/C/Projects/ruby/BigBrother/app/views/statistic/session.html.erb"
 	],
 	"find":
 	{
@@ -435,24 +421,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/pages/anmeldung.html.erb",
+					"file": "app/views/contacts/new.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4365,
+						"buffer_size": 3237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4165,
-								4165
+								2595,
+								2595
 							]
 						],
 						"settings":
@@ -461,107 +447,19 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1445.0,
+						"translation.y": 210.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/pages/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4986,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4542,
-								4542
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1547.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/pages/strecke.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2482,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1210,
-								1210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/layouts/application.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								575,
-								575
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/pages/anfahrt.html.erb",
+					"file": "app/views/registrations/new.html.erb",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1645,
+						"buffer_size": 4118,
 						"regions":
 						{
 						},
@@ -581,7 +479,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -660,6 +558,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

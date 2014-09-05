@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
+
+  match '/registration', to: 'registrations#new', via: 'get'
+  resources "registrations", only: [:new, :create]
+
   get 'pages/ablauf'
 
   get 'pages/anfahrt'

@@ -1,0 +1,92 @@
+<div class="bs-docs-header" id="content">
+  <div class="container">
+    <h1><span class="glyphicon glyphicon-pencil"></span> Anmeldung</h1>
+  </div>
+</div>
+
+<div class="container bs-docs-container">
+	<div class="row">
+		<div class="col-md-9" role="main">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3>Anmeldung</h3>
+				</div>
+				<div class="panel-body">
+					<p>Die Anmeldung erfolgt über das folgende Formular. Damit die Anmeldung wirksam wird, muss die entsprechende Anmeldegebühr (pro Fahrer 10€ unter Angabe von Mail-Adresse und Team-Namen) auf das unten angegebene Konto überwiesen werden. Den Eingang der Anmeldegebühr werden wir per E-Mail bestätigen, daher bitte unbedingt eine gültige Mail-Adresse angeben.</p>
+					<%= form_for @registration, :html => {:class=>"form-horizontal", :role=>"form"} do |f| %>
+						
+						<%= f.error_messages %>
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Vorname:</label>
+					    	<div class="col-sm-6">
+					      		<%= f.text_field :firstname, :required=> true, :class=>"form-control" %>
+					    	</div>
+				  		</div>
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Nachname:</label>
+					    	<div class="col-sm-6">
+					      		<%= f.text_field :lastname, :required=> true, :class=>"form-control" %>
+					    	</div>
+				  		</div>				  		
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Strasse / Hausnummer:</label>
+					    	<div class="col-sm-4">
+					      		<%= f.text_field  :street, :required=> true, :class=>"form-control" %>
+					    	</div>					    	
+					    	<div class="col-sm-2">
+					      		<%= f.text_field  :number, :required=> true, :type=>'number', :class=>"form-control" %>
+					    	</div>
+				  		</div>
+						<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Postleitzahl / Ort:</label>
+					    	<div class="col-sm-2">
+					      		<%= f.text_field :zipcode, :required=> true, :type => 'number', :class=>"form-control" %>
+					      	</div>
+					    	<div class="col-sm-4">
+					      		<%= f.text_field :town, :required=> true, :class=>"form-control" %>
+					    	</div>
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">EMail-Adresse:</label>
+					    	<div class="col-sm-6">
+					      		<%= f.text_field  :email, :required=> true, :type=>"email", :class=>"form-control" %>
+					    	</div>
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Name des Teams:</label>
+					    	<div class="col-sm-6">
+					      		<%= f.text_field  :teamname, :required=> true, :class=>"form-control" %>
+					    	</div>
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="inputEmail3" class="col-sm-2 control-label">Namen der Teammitglieder:</label>
+					    	<div class="col-sm-6">
+					      		<%= f.text_area :members, :required=> true, :class=>"form-control", :rows=>"3", :placeholder=>"z.B. Karl,Otto,Heinz" %>
+					    	</div>
+				  		</div>
+					  	<div class="form-group">
+					    	<div class="col-sm-offset-2 col-sm-10">
+					      		<%= f.submit "Anmelden", :class=>"btn btn-primary"%>
+					    	</div>
+					  	</div>
+					<% end %>
+				</div>
+			</div>
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3>Startgebühr</h3>
+				</div>
+				<div class="panel-body">
+					<p>Die Startgebühr beträgt <b>pro Teammitglied 10 Euro</b>. Bitte überweist den entsprechenden Gesamtbetrag für euer Team auf das Konto 1234567 bei der Spasskatze Trier, BLZ 123123123. Wichtig: als Referenz bitte die Mail-Adresse der Registrierung und den Teamnamen angeben, damit wir den Zahlungseingang zuordnen können!</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+		<%= link_to image_tag("mtb1_thumb.jpg", :class=>"img-responsive"), "/assets/mtb1.jpg", :class=>"fancybox thumbnail" %>
+		</div>			
+	</div>
+</div>
+
+<script>
+  	enable_top_menu('anmeldung');
+</script>
