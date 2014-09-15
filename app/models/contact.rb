@@ -1,7 +1,13 @@
 class Contact < MailForm::Base
+  include ActiveModel::Validations
+  include ActiveModel::Validations::Callbacks
+
+  before_validation :set_validated
+
   attribute :name,      :validate => true
   attribute :email#,     :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
   attribute :message, :validate => true
+  attribute :validated
 
   validates :name, length: { minimum: 3 }
   validates :email, length: { minimum: 5 }
@@ -14,4 +20,10 @@ class Contact < MailForm::Base
       :from => %("#{name}" <#{email}>)
     }
   end
+
+  private
+
+  def set_validated
+    self.validated = true
+  end  
 end

@@ -111,7 +111,7 @@
 			"file": "app/views/contacts/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 3237,
+				"buffer_size": 2454,
 				"line_ending": "Unix"
 			}
 		},
@@ -119,8 +119,16 @@
 			"file": "app/views/registrations/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 4118,
+				"buffer_size": 5302,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 569,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -158,15 +166,23 @@
 		"/C/Projects/ruby/rails-schnitzeljagd",
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/helpers",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations"
 	],
 	"file_history":
 	[
-		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models/registration.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models/contact.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
@@ -286,13 +302,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/_price_files.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/_host_status.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/_sql_jobs.html.erb",
-		"/C/Projects/ruby/BigBrother/app/assets/stylesheets/bootstrap.css",
-		"/C/Projects/ruby/BigBrother/app/views/sessions/new.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/sessions/not_allowed.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_avg_call_duration_pw.js.erb",
-		"/C/Projects/ruby/BigBrother/app/views/statistic/order.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_docimport.js.erb",
-		"/C/Projects/ruby/BigBrother/app/views/statistic/session.html.erb"
+		"/C/Projects/ruby/BigBrother/app/assets/stylesheets/bootstrap.css"
 	],
 	"find":
 	{
@@ -421,7 +431,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -430,15 +440,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3237,
+						"buffer_size": 2454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2595,
-								2595
+								735,
+								672
 							]
 						],
 						"settings":
@@ -447,27 +457,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 134.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "app/views/registrations/new.html.erb",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4118,
+						"buffer_size": 5302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3973,
+								3973
 							]
 						],
 						"settings":
@@ -476,10 +486,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 690.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/helpers/application_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								558,
+								558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
