@@ -7,7 +7,10 @@ module ApplicationHelper
   				html << '<span class="glyphicon glyphicon-ok form-control-feedback"></span>'
   			else 
   				html << '<span class="glyphicon glyphicon-remove form-control-feedback"></span>'
-  				html << model.errors[field].join(", ")
+  				html << '<div class="alert alert-danger alert-dismissible" role="alert">' 
+  				html <<	'<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>' 
+	    	  	html << model.errors[field].join(", ")
+	    	  	html << '</div>'
   			end
   	 	end
   	 	return html
