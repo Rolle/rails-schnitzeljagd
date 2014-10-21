@@ -108,18 +108,20 @@
 	"buffers":
 	[
 		{
-			"file": "config/environments/production.rb",
+			"contents": "Searching 75 files for \"icon_tap\"\n\n0 matches across 0 files\n\n\n\nSearching 75 files for \"icon_tap\"\n\n0 matches across 0 files\n\n\nSearching 75 files for \"icon_top\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\assets\\stylesheets\\my.css.erb:\n    9  \n   10  .fill{min-height:100%;height:100%}\n   11: .scrollup{width:40px;height:40px;opacity:0.3;position:fixed;bottom:30px;right:30px;display:none;text-indent:-9999px;background:url(\"<%= asset_path 'icon_top.png'%>\") no-repeat}\n   12  \n   13  .jumbotron {\n\n1 match in 1 file\n",
 			"settings":
 			{
-				"buffer_size": 3211,
-				"line_ending": "Unix"
+				"buffer_size": 513,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/bootstrap.min.css",
+			"file": "app/assets/stylesheets/my.css.erb",
 			"settings":
 			{
-				"buffer_size": 109206,
+				"buffer_size": 681,
 				"line_ending": "Windows"
 			}
 		}
@@ -158,15 +160,24 @@
 		"/C/Projects/ruby/rails-schnitzeljagd",
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/images",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets",
-		"/C/Projects/ruby/rails-schnitzeljagd/config/environments",
-		"/C/Projects/ruby/rails-schnitzeljagd/public"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/environments"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/environments/production.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css",
 		"/C/Projects/ruby/rails-schnitzeljagd/config/secrets.yml",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
@@ -174,11 +185,7 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models/registration.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models/contact.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/Gemfile",
@@ -287,12 +294,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/statistic/params_pw.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/order/issuerorderid.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/order/day.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/order/bicentrydate.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_web_state.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_biztalk.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_webserver_calls.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_status_loadbalancer.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_price_files.html.erb"
+		"/C/Projects/ruby/BigBrother/app/views/order/bicentrydate.html.erb"
 	],
 	"find":
 	{
@@ -303,6 +305,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app",
 			"C:\\Projects\\ruby\\BigBrother\\app\\",
 			"C:\\Projects\\ruby\\BigBrother\\app\\models",
 			"C:\\Projects\\ruby\\BigBrother\\app\\",
@@ -315,6 +318,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icon_top",
+			"icon_tap",
+			"assets",
+			"glyphicons",
+			"asset_path",
 			"Halflings",
 			"glyph",
 			"/images",
@@ -391,6 +399,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"asset-url",
 			"://luxpsqll27\\iks_biz;databaseName=IAM2000_DBPartner",
 			"://luxpsqll26\\iks_vita;databaseName=IAM2000_DBPartner_08",
 			"://luxpsqlg14\\iks_ger;databaseName=IAM2000_DBPartner_09",
@@ -428,66 +437,77 @@
 			[
 				{
 					"buffer": 0,
-					"file": "config/environments/production.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3211,
+						"buffer_size": 513,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										437,
+										445
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								1042,
-								1042
+								447,
+								447
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"file": "app/assets/images/fancybox_loading.gif",
-					"semi_transient": true,
-					"stack_index": 0,
-					"type": "image"
-				},
-				{
 					"buffer": 1,
-					"file": "app/assets/stylesheets/bootstrap.min.css",
+					"file": "app/assets/stylesheets/my.css.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 109206,
+						"buffer_size": 681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3273,
-								3273
+								140,
+								140
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 22280.0,
-						"translation.y": 0.0,
+						"translation.x": 229.0,
+						"translation.y": -0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

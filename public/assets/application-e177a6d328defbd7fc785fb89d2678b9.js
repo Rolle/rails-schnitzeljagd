@@ -10754,7 +10754,7 @@ return jQuery;
 
 })( jQuery );
 (function() {
-  var CSRFToken, Click, ComponentUrl, Link, browserCompatibleDocumentParser, browserIsntBuggy, browserSupportsCustomEvents, browserSupportsPushState, browserSupportsTurbolinks, bypassOnLoadPopstate, cacheCurrentPage, cacheSize, changePage, constrainPageCacheTo, createDocument, currentState, enableTransitionCache, executeScriptTags, extractTitleAndBody, fetch, fetchHistory, fetchReplacement, historyStateIsDefined, initializeTurbolinks, installDocumentReadyPageEventTriggers, installHistoryChangeHandler, installJqueryAjaxSuccessPageUpdateTrigger, loadedAssets, manuallyTriggerHashChangeForFirefox, pageCache, pageChangePrevented, pagesCached, popCookie, processResponse, recallScrollPosition, referer, reflectNewUrl, reflectRedirectedUrl, rememberCurrentState, rememberCurrentUrl, rememberReferer, removeNoscriptTags, requestMethodIsSafe, resetScrollPosition, setAutofocusElement, transitionCacheEnabled, transitionCacheFor, triggerEvent, visit, xhr, _ref,
+  var CSRFToken, Click, ComponentUrl, EVENTS, Link, browserCompatibleDocumentParser, browserIsntBuggy, browserSupportsCustomEvents, browserSupportsPushState, browserSupportsTurbolinks, bypassOnLoadPopstate, cacheCurrentPage, cacheSize, changePage, clone, constrainPageCacheTo, createDocument, currentState, enableTransitionCache, executeScriptTags, extractTitleAndBody, fetch, fetchHistory, fetchReplacement, historyStateIsDefined, initializeTurbolinks, installDocumentReadyPageEventTriggers, installHistoryChangeHandler, installJqueryAjaxSuccessPageUpdateTrigger, loadedAssets, manuallyTriggerHashChangeForFirefox, pageCache, pageChangePrevented, pagesCached, popCookie, processResponse, recallScrollPosition, referer, reflectNewUrl, reflectRedirectedUrl, rememberCurrentState, rememberCurrentUrl, rememberReferer, removeNoscriptTags, requestMethodIsSafe, resetScrollPosition, setAutofocusElement, transitionCacheEnabled, transitionCacheFor, triggerEvent, visit, xhr, _ref,
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; },
     __hasProp = {}.hasOwnProperty,
     __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
@@ -10775,6 +10775,18 @@ return jQuery;
   createDocument = null;
 
   xhr = null;
+
+  EVENTS = {
+    BEFORE_CHANGE: 'page:before-change',
+    FETCH: 'page:fetch',
+    RECEIVE: 'page:receive',
+    CHANGE: 'page:change',
+    UPDATE: 'page:update',
+    LOAD: 'page:load',
+    RESTORE: 'page:restore',
+    BEFORE_UNLOAD: 'page:before-unload',
+    EXPIRE: 'page:expire'
+  };
 
   fetch = function(url) {
     var cachedPage;
@@ -10810,7 +10822,7 @@ return jQuery;
         return function() {};
       })(this);
     }
-    triggerEvent('page:fetch', {
+    triggerEvent(EVENTS.FETCH, {
       url: url.absolute
     });
     if (xhr != null) {
@@ -10822,7 +10834,7 @@ return jQuery;
     xhr.setRequestHeader('X-XHR-Referer', referer);
     xhr.onload = function() {
       var doc;
-      triggerEvent('page:receive', {
+      triggerEvent(EVENTS.RECEIVE, {
         url: url.absolute
       });
       if (doc = processResponse()) {
@@ -10831,7 +10843,7 @@ return jQuery;
         manuallyTriggerHashChangeForFirefox();
         reflectRedirectedUrl();
         onLoadFunction();
-        return triggerEvent('page:load');
+        return triggerEvent(EVENTS.LOAD);
       } else {
         return document.location.href = url.absolute;
       }
@@ -10851,7 +10863,7 @@ return jQuery;
     }
     changePage(cachedPage.title, cachedPage.body);
     recallScrollPosition(cachedPage);
-    return triggerEvent('page:restore');
+    return triggerEvent(EVENTS.RESTORE);
   };
 
   cacheCurrentPage = function() {
@@ -10892,13 +10904,14 @@ return jQuery;
       if (!(pageCache[key].cachedAt <= cacheTimesRecentFirst[limit])) {
         continue;
       }
-      triggerEvent('page:expire', pageCache[key]);
+      triggerEvent(EVENTS.EXPIRE, pageCache[key]);
       _results.push(delete pageCache[key]);
     }
     return _results;
   };
 
   changePage = function(title, body, csrfToken, runScripts) {
+    triggerEvent(EVENTS.BEFORE_UNLOAD);
     document.title = title;
     document.documentElement.replaceChild(body, document.body);
     if (csrfToken != null) {
@@ -10909,8 +10922,8 @@ return jQuery;
       executeScriptTags();
     }
     currentState = window.history.state;
-    triggerEvent('page:change');
-    return triggerEvent('page:update');
+    triggerEvent(EVENTS.CHANGE);
+    return triggerEvent(EVENTS.UPDATE);
   };
 
   executeScriptTags = function() {
@@ -10926,6 +10939,9 @@ return jQuery;
       for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
         attr = _ref1[_j];
         copy.setAttribute(attr.name, attr.value);
+      }
+      if (!script.hasAttribute('async')) {
+        copy.async = false;
       }
       copy.appendChild(document.createTextNode(script.innerHTML));
       parentNode = script.parentNode, nextSibling = script.nextSibling;
@@ -11000,6 +11016,19 @@ return jQuery;
     }
   };
 
+  clone = function(original) {
+    var copy, key, value;
+    if ((original == null) || typeof original !== 'object') {
+      return original;
+    }
+    copy = new original.constructor();
+    for (key in original) {
+      value = original[key];
+      copy[key] = clone(value);
+    }
+    return copy;
+  };
+
   popCookie = function(name) {
     var value, _ref;
     value = ((_ref = document.cookie.match(new RegExp(name + "=(\\w+)"))) != null ? _ref[1].toUpperCase() : void 0) || '';
@@ -11009,6 +11038,9 @@ return jQuery;
 
   triggerEvent = function(name, data) {
     var event;
+    if (typeof Prototype !== 'undefined') {
+      Event.fire(document, name, data, true);
+    }
     event = document.createEvent('Events');
     if (data) {
       event.data = data;
@@ -11017,8 +11049,10 @@ return jQuery;
     return document.dispatchEvent(event);
   };
 
-  pageChangePrevented = function() {
-    return !triggerEvent('page:before-change');
+  pageChangePrevented = function(url) {
+    return !triggerEvent(EVENTS.BEFORE_CHANGE, {
+      url: url
+    });
   };
 
   processResponse = function() {
@@ -11028,11 +11062,12 @@ return jQuery;
       return (400 <= (_ref = xhr.status) && _ref < 600);
     };
     validContent = function() {
-      return xhr.getResponseHeader('Content-Type').match(/^(?:text\/html|application\/xhtml\+xml|application\/xml)(?:;|$)/);
+      var contentType;
+      return ((contentType = xhr.getResponseHeader('Content-Type')) != null) && contentType.match(/^(?:text\/html|application\/xhtml\+xml|application\/xml)(?:;|$)/);
     };
     extractTrackAssets = function(doc) {
       var node, _i, _len, _ref, _results;
-      _ref = doc.head.childNodes;
+      _ref = doc.querySelector('head').childNodes;
       _results = [];
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         node = _ref[_i];
@@ -11073,7 +11108,7 @@ return jQuery;
   extractTitleAndBody = function(doc) {
     var title;
     title = doc.querySelector('title');
-    return [title != null ? title.textContent : void 0, removeNoscriptTags(doc.body), CSRFToken.get(doc).token, 'runScripts'];
+    return [title != null ? title.textContent : void 0, removeNoscriptTags(doc.querySelector('body')), CSRFToken.get(doc).token, 'runScripts'];
   };
 
   CSRFToken = {
@@ -11097,7 +11132,7 @@ return jQuery;
   };
 
   browserCompatibleDocumentParser = function() {
-    var createDocumentUsingDOM, createDocumentUsingParser, createDocumentUsingWrite, e, testDoc, _ref;
+    var buildTestsUsing, createDocumentUsingDOM, createDocumentUsingFragment, createDocumentUsingParser, createDocumentUsingWrite, docTest, docTests, e, _i, _len;
     createDocumentUsingParser = function(html) {
       return (new DOMParser).parseFromString(html, 'text/html');
     };
@@ -11115,18 +11150,53 @@ return jQuery;
       doc.close();
       return doc;
     };
+    createDocumentUsingFragment = function(html) {
+      var body, doc, head, htmlWrapper, _ref, _ref1;
+      head = ((_ref = html.match(/<head[^>]*>([\s\S.]*)<\/head>/i)) != null ? _ref[0] : void 0) || '<head></head>';
+      body = ((_ref1 = html.match(/<body[^>]*>([\s\S.]*)<\/body>/i)) != null ? _ref1[0] : void 0) || '<body></body>';
+      htmlWrapper = document.createElement('html');
+      htmlWrapper.innerHTML = head + body;
+      doc = document.createDocumentFragment();
+      doc.appendChild(htmlWrapper);
+      return doc;
+    };
+    buildTestsUsing = function(createMethod) {
+      var buildTest, formNestingTest, structureTest;
+      buildTest = function(fallback, passes) {
+        return {
+          passes: passes(),
+          fallback: fallback
+        };
+      };
+      structureTest = buildTest(createDocumentUsingWrite, (function(_this) {
+        return function() {
+          var _ref, _ref1;
+          return ((_ref = createMethod('<html><body><p>test')) != null ? (_ref1 = _ref.body) != null ? _ref1.childNodes.length : void 0 : void 0) === 1;
+        };
+      })(this));
+      formNestingTest = buildTest(createDocumentUsingFragment, (function(_this) {
+        return function() {
+          var _ref, _ref1;
+          return ((_ref = createMethod('<html><body><form></form><div></div></body></html>')) != null ? (_ref1 = _ref.body) != null ? _ref1.childNodes.length : void 0 : void 0) === 2;
+        };
+      })(this));
+      return [structureTest, formNestingTest];
+    };
     try {
       if (window.DOMParser) {
-        testDoc = createDocumentUsingParser('<html><body><p>test');
+        docTests = buildTestsUsing(createDocumentUsingParser);
         return createDocumentUsingParser;
       }
     } catch (_error) {
       e = _error;
-      testDoc = createDocumentUsingDOM('<html><body><p>test');
+      docTests = buildTestsUsing(createDocumentUsingDOM);
       return createDocumentUsingDOM;
     } finally {
-      if ((testDoc != null ? (_ref = testDoc.body) != null ? _ref.childNodes.length : void 0 : void 0) !== 1) {
-        return createDocumentUsingWrite;
+      for (_i = 0, _len = docTests.length; _i < _len; _i++) {
+        docTest = docTests[_i];
+        if (!docTest.passes) {
+          return docTest.fallback;
+        }
       }
     }
   };
@@ -11141,7 +11211,7 @@ return jQuery;
     }
 
     ComponentUrl.prototype.withoutHash = function() {
-      return this.href.replace(this.hash, '');
+      return this.href.replace(this.hash, '').replace('#', '');
     };
 
     ComponentUrl.prototype.withoutHashForIE10compatibility = function() {
@@ -11189,6 +11259,8 @@ return jQuery;
         return this.link;
       }
       this.original = this.link.href;
+      this.originalElement = this.link;
+      this.link = this.link.cloneNode(false);
       Link.__super__.constructor.apply(this, arguments);
     }
 
@@ -11201,8 +11273,7 @@ return jQuery;
     };
 
     Link.prototype._anchored = function() {
-      var current;
-      return ((this.hash && this.withoutHash()) === (current = new ComponentUrl).withoutHash()) || (this.href === current.href + '#');
+      return (this.hash.length > 0 || this.href.charAt(this.href.length - 1) === '#') && (this.withoutHash() === (new ComponentUrl).withoutHash());
     };
 
     Link.prototype._nonHtml = function() {
@@ -11211,7 +11282,7 @@ return jQuery;
 
     Link.prototype._optOut = function() {
       var ignore, link;
-      link = this.link;
+      link = this.originalElement;
       while (!(ignore || link === document)) {
         ignore = link.getAttribute('data-no-turbolink') != null;
         link = link.parentNode;
@@ -11246,7 +11317,7 @@ return jQuery;
       }
       this._extractLink();
       if (this._validForTurbolinks()) {
-        if (!pageChangePrevented()) {
+        if (!pageChangePrevented(this.link.absolute)) {
           visit(this.link.href);
         }
         this.event.preventDefault();
@@ -11282,8 +11353,8 @@ return jQuery;
 
   installDocumentReadyPageEventTriggers = function() {
     return document.addEventListener('DOMContentLoaded', (function() {
-      triggerEvent('page:change');
-      return triggerEvent('page:update');
+      triggerEvent(EVENTS.CHANGE);
+      return triggerEvent(EVENTS.UPDATE);
     }), true);
   };
 
@@ -11293,7 +11364,7 @@ return jQuery;
         if (!jQuery.trim(xhr.responseText)) {
           return;
         }
-        return triggerEvent('page:update');
+        return triggerEvent(EVENTS.UPDATE);
       });
     }
   };
@@ -11355,7 +11426,8 @@ return jQuery;
     pagesCached: pagesCached,
     enableTransitionCache: enableTransitionCache,
     allowLinkExtensions: Link.allowExtensions,
-    supported: browserSupportsTurbolinks
+    supported: browserSupportsTurbolinks,
+    EVENTS: clone(EVENTS)
   };
 
 }).call(this);
