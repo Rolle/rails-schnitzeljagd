@@ -162,11 +162,11 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
-		"/C/Projects/ruby/rails-schnitzeljagd/config/environments"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
@@ -293,8 +293,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/statistic/params_order.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/statistic/params_pw.html.erb",
 		"/C/Projects/ruby/BigBrother/app/views/order/issuerorderid.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/order/day.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/order/bicentrydate.html.erb"
+		"/C/Projects/ruby/BigBrother/app/views/order/day.html.erb"
 	],
 	"find":
 	{
@@ -484,7 +483,7 @@
 				{
 					"buffer": 1,
 					"file": "app/assets/stylesheets/my.css.erb",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 681,
@@ -494,17 +493,17 @@
 						"selection":
 						[
 							[
-								140,
-								140
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 229.0,
-						"translation.y": -0.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -594,7 +593,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 367.0,
+	"side_bar_width": 147.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
