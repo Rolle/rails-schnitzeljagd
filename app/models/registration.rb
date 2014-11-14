@@ -29,8 +29,8 @@ class Registration < MailForm::Base
   def headers
     {
       :subject => "Schnitzeljagd 2015 - Anmeldung",
-      :to => "your_email@example.org",
-      :from => %("#{name}" <#{email}>)
+      :to => "rolle@rolandschmitt.info",
+      :from => %("#{firstname} #{lastname}" <#{email}>)
     }
   end
 

@@ -108,13 +108,19 @@
 	"buffers":
 	[
 		{
-			"contents": "Searching 75 files for \"icon_tap\"\n\n0 matches across 0 files\n\n\n\nSearching 75 files for \"icon_tap\"\n\n0 matches across 0 files\n\n\nSearching 75 files for \"icon_top\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\assets\\stylesheets\\my.css.erb:\n    9  \n   10  .fill{min-height:100%;height:100%}\n   11: .scrollup{width:40px;height:40px;opacity:0.3;position:fixed;bottom:30px;right:30px;display:none;text-indent:-9999px;background:url(\"<%= asset_path 'icon_top.png'%>\") no-repeat}\n   12  \n   13  .jumbotron {\n\n1 match in 1 file\n",
+			"file": "app/views/pages/strecke.html.erb",
 			"settings":
 			{
-				"buffer_size": 513,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 2488,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 5955,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -161,21 +167,24 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/environments",
+		"/C/Projects/ruby/rails-schnitzeljagd/public",
+		"/C/Projects/ruby/rails-schnitzeljagd/public/assets"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/config/environments/production.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
-		"/C/Projects/ruby/rails-schnitzeljagd/config/environments/production.rb",
-		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css",
 		"/C/Projects/ruby/rails-schnitzeljagd/config/secrets.yml",
@@ -431,59 +440,71 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/views/pages/strecke.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 513,
+						"buffer_size": 2488,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										437,
-										445
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								447,
-								447
+								2135,
+								2272
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/registrations/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5754,
+								5754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1361.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "app/assets/stylesheets/my.css.erb",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 681,
@@ -493,13 +514,13 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								489,
+								489
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -593,7 +614,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 147.0,
+	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
