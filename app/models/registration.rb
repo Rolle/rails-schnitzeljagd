@@ -1,26 +1,17 @@
-class Registration < MailForm::Base
-  include ActiveModel::Validations
-  include ActiveModel::Validations::Callbacks
+class Registration < ActiveRecord::Base #< MailForm::Base
 
-  attribute :firstname,      :validate => true
-  attribute :lastname,      :validate => true
-  attribute :street,      :validate => true
-  attribute :number,      :validate => true
-  attribute :zipcode,      :validate => true
-  attribute :town,      :validate => true
-
-  attribute :email,     :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i  
-  attribute :teamname, :validate => true
-  attribute :members, :validate => true
-
-  attribute :validated
+  attr_accessor :validated
   
-  validates :firstname, length: { minimum: 3 }
-  validates :lastname, length: { minimum: 3 }
-  validates :street, length: { minimum: 5 }
-  validates :town, length: { minimum: 3 }
-  validates :teamname, length: { minimum: 5 }
-  validates :members, length: { minimum: 5 }
+  validates :firstname,      presence: true,length: { minimum: 3 }
+  validates :lastname,      presence: true,length: { minimum: 3 }
+  validates :street,      presence: true, length: { minimum: 5 }
+  validates :number,      presence: true
+  validates :zipcode,      presence: true
+  validates :town,      presence: true, length: { minimum: 3 }
+
+  validates :email, presence: true #,     format: {with: /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i, "nur gültige Mail-Adressen"}
+  validates :teamname, presence: true, length: { minimum: 5 }
+  validates :members, presence: true, length: { minimum: 5 }
 
   before_validation :set_validated
 
