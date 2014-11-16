@@ -3,6 +3,10 @@ class RegistrationsController < ApplicationController
     @registration = Registration.new
   end
 
+  def index
+    @registrations = Registration.all
+  end
+
   def create
     #@image_artifact = ImageArtifact.new(image_artifact_params)
     @registration = Registration.new(registration_params)
