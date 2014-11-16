@@ -1,4 +1,4 @@
-class Registration < ActiveRecord::Base #< MailForm::Base
+class Registration < ActiveRecord::Base
 
   attr_accessor :validated
   
@@ -14,16 +14,6 @@ class Registration < ActiveRecord::Base #< MailForm::Base
   validates :members, presence: true, length: { minimum: 5 }
 
   before_validation :set_validated
-
-  # Declare the e-mail headers. It accepts anything the mail method
-  # in ActionMailer accepts.
-  def headers
-    {
-      :subject => "Schnitzeljagd 2015 - Anmeldung",
-      :to => "rolle@rolandschmitt.info",
-      :from => %("#{firstname} #{lastname}" <#{email}>)
-    }
-  end
 
   private
   def set_validated

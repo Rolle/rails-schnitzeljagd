@@ -1,0 +1,51 @@
+<div class="bs-docs-header" id="content">
+  <div class="container">
+    <h1><span class="glyphicon glyphicon-pencil"></span> Login</h1>
+  </div>
+</div>
+
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-md-12" role="main">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>Login</h3>
+        </div>
+        <div class="panel-body">
+          <%if flash.now[:notice] %>
+            <div class="alert alert-success alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <%= flash.now[:notice] %>
+                </div>
+            <% end -%>
+
+          <%if flash.now[:error] %>
+            <div class="alert alert-danger alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <%= flash.now[:error] %>
+                </div>
+            <% end -%>
+
+
+            <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+              <div class="field">
+                <%= f.label :email %><br />
+                <%= f.email_field :email, autofocus: true %>
+              </div>
+
+              <div class="field">
+                <%= f.label :password %><br />
+                <%= f.password_field :password, autocomplete: "off" %>
+              </div>
+
+              <div class="actions">
+              <br/>
+                <%= f.submit "Log in", :class=>"btn btn-primary" %>
+              </div>
+            <% end %>
+            <%= render "devise/shared/links" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

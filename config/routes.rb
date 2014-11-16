@@ -1,7 +1,20 @@
 Rails.application.routes.draw do
 
+  devise_for :users
+  resources :registrations do
+    member do
+      get "paid"
+    end
+  end
+
+  resources :contacts do
+    member do
+      get "answered"
+    end
+  end
+  
   match '/contacts', to: 'contacts#new', via: 'get'
-  resources "contacts", only: [:new, :create]
+  resources "contacts", only: [:new, :create, :index]
 
   match '/registration', to: 'registrations#new', via: 'get'
   resources "registrations", only: [:new, :create]

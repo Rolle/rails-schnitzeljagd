@@ -40,3 +40,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 #gem 'puma', platforms: [:mingw]
 
 gem 'mail_form'
+gem 'devise'

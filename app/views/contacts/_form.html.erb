@@ -1,0 +1,13 @@
+<tr>
+	<td><%= form.name %></td>
+	<td><%= form.created_at %></td>
+	<td><%= form.email %></td>
+	<td><%= form.message %></td>
+	<td>
+		<%= check_box_tag('ck_'+form.id.to_s, form.answered, form.answered,					  
+		  :data => {
+		    :remote=> true, :url => url_for(controller: 'contacts', action: :answered, id: form.id), id: form.id
+		  }
+		)-%>
+	</td>
+</tr>

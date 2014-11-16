@@ -1,6 +1,6 @@
 <div class="bs-docs-header" id="content">
   <div class="container">
-    <h1><span class="glyphicon glyphicon-pencil"></span> Anmeldung</h1>
+    <h1><span class="glyphicon glyphicon-pencil"></span> Anfragen</h1>
   </div>
 </div>
 
@@ -9,7 +9,7 @@
 		<div class="col-md-12" role="main">
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3>Anmeldungen</h3>
+					<h3>Anfragen</h3>
 				</div>
 				<div class="panel-body">
 					<%if flash.now[:notice] %>
@@ -29,19 +29,15 @@
     					    <thead>
 						      <tr>
 
-						        <th>Team</th>
-						        <th>Anmeldung am</th>
-						        <th>Vorname</th>
-						        <th>Nachname</th>
-						        <th>Strasse</th>
-						        <th>Ort</th>
+						        <th>Name</th>
+						        <th>Eintrag am</th>
 						        <th>Email</th>
-						        <th>Fahrer</th>
-						        <th>Bezahlt?</th>
+						        <th>Text</th>
+						        <th>Beantwortet?</th>
 						      </tr>
 						    </thead>
 						    <tbody>
-	    						<%= render partial: "form", collection: @registrations %>
+	    						<%= render partial: "form", collection: @contacts %>
 	    					</tbody>
 	    			</table>
     			</div>

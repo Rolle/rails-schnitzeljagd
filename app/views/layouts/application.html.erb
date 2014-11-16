@@ -33,16 +33,20 @@
 
         <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li id="index"><%= link_to "Event", :controller => "pages", :action => "index" %></li>
-            <li id="strecke"><%= link_to "Strecke", :controller => "pages", :action => "strecke" %></li>
-            <li id="ablauf"><%= link_to "Ablauf", :controller => "pages", :action => "ablauf" %>
-            <li id="anmeldung"><%= link_to "Anmeldung", :controller => "registrations", :action => "new" %></li>
-            <li id="anfahrt"><%= link_to "Anfahrt", :controller => "pages", :action => "anfahrt" %></li>            
-            <li id="kontakt"><%= link_to "Kontakt", :controller => "contacts", :action => "new" %></li>
+            <li id="index"><%= link_to "Event", pages_index_path %></li>
+            <li id="strecke"><%= link_to "Strecke", pages_strecke_path %></li>
+            <li id="ablauf"><%= link_to "Ablauf", pages_ablauf_path %>
+            <li id="anmeldung"><%= link_to "Anmeldung", new_registration_path %></li>
+            <li id="anfahrt"><%= link_to "Anfahrt", pages_anfahrt_path %></li>            
+            <li id="kontakt"><%= link_to "Kontakt", new_contact_path %></li>
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li id="impressum"><%= link_to "Impressum", :controller => "pages", :action => "impressum" %></li>
+            <% if user_signed_in? %>
+              <li id="Teams"><%= link_to "Teams", registrations_path %></li>
+              <li id="Anfragen"><%= link_to "Anfragen", contacts_path %></li>
+            <% end %>
+            <li id="impressum"><%= link_to "Impressum", pages_impressum_path %></li>
           </ul>
         </nav>
       </div>
@@ -61,6 +65,7 @@
       <p>
         <a href = "/kontakt.html"><i class="icon-user"></i> Kontakt<span class="divider"> | </span>
         <a href = "/impressum.html"><i class="icon-comment"></i> Impressum<span class="divider"> | </span>
+        <%= link_to "Login", new_user_session_path %><span class="divider"> | </span>
         <a href="mailto:schnitzeljagd@bergwerk-fell.de"><i class="icon-envelope"></i> schnitzeljagd@bergwerk-fell.de</a><span class="divider">
       </p>
     </footer>

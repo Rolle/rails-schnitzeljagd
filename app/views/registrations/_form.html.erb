@@ -1,10 +1,17 @@
 <tr>
 	<td><%= form.teamname %></td>
+	<td><%= form.created_at %></td>
 	<td><%= form.firstname %></td>
 	<td><%= form.lastname %></td>
 	<td><%= form.street + " " + form.number.to_s %></td>
 	<td><%= form.zipcode + " " + form.town %></td>
 	<td><%= form.email %></td>
 	<td><%= form.members %></td>
-	<td><%= form.paid %></td>
+	<td>
+		<%= check_box_tag('ck_'+form.id.to_s, form.paid, form.paid,					  
+		  :data => {
+		    :remote=> true, :url => url_for(controller: 'registrations', action: :paid, id: form.id), id: form.id
+		  }
+		)-%>
+	</td>
 </tr>
