@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   match '/registration', to: 'registrations#new', via: 'get'
   resources "registrations", only: [:new, :create]
+  
 
   get 'pages/ablauf'
 

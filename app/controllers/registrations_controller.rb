@@ -1,13 +1,18 @@
 class RegistrationsController < ApplicationController
-  respond_to :html, :js, :json
+  respond_to :html, :js
   before_action :authenticate_user!, only: :index
+
+  def destroy
+    @registration = Registration.find(params[:id])
+    respond_with @registration
+  end
 
   def new
     @registration = Registration.new
   end
 
   def index
-    @registrations = Registration.all.order("created_at")
+    @registrations = Registration.all.order("teamname")
   end
 
   def paid

@@ -1,4 +1,4 @@
-<tr>
+<tr id="contact_row_<%= form.id.to_s %>">
 	<td><%= form.name %></td>
 	<td><%= form.created_at.strftime("%d.%m.%Y %H:%M") %></td>
 	<td><%= form.email %></td>
@@ -9,5 +9,8 @@
 		    :remote=> true, :url => url_for(controller: 'contacts', action: :answered, id: form.id), id: form.id
 		  }
 		)-%>
+	</td>
+	<td>
+		<%= link_to('<i class="btn btn-danger btn-sm glyphicon glyphicon-remove"></i>'.html_safe, form, method: :delete, remote: :true, data: { confirm: 'Wirklich löschen?'}) %>
 	</td>
 </tr>

@@ -2,6 +2,11 @@ class ContactsController < ApplicationController
   respond_to :html, :js, :json
   before_action :authenticate_user!, only: :index
 
+  def destroy
+    @contact = Contact.find(params[:id])
+    respond_with @registration
+  end
+
   def new
     @contact = Contact.new
   end
