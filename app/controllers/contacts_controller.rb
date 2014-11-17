@@ -17,7 +17,7 @@ class ContactsController < ApplicationController
   end
 
   def index
-    @contacts = Contact.all.order("created_at")
+    @contacts = Contact.all.order("created_at desc")
   end
 
   def answered

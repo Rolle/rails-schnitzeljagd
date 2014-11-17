@@ -69,7 +69,7 @@
 				  		<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :email) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">EMail-Adresse:</label>
 					    	<div class="col-sm-6">
-					      		<%= f.text_field  :email, :required=> true, :type=>"email", :class=>"form-control" %>
+					      		<%= f.email_field  :email, :required=> true, :type=>"email", :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :email) %>
 					    	</div>
 				  		</div>

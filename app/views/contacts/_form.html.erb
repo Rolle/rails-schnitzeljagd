@@ -1,6 +1,6 @@
 <tr>
 	<td><%= form.name %></td>
-	<td><%= form.created_at %></td>
+	<td><%= form.created_at.strftime("%d.%m.%Y %H:%M") %></td>
 	<td><%= form.email %></td>
 	<td><%= form.message %></td>
 	<td>

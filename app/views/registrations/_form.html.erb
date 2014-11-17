@@ -1,6 +1,6 @@
 <tr>
 	<td><%= form.teamname %></td>
-	<td><%= form.created_at %></td>
+	<td><%= form.created_at.strftime("%d.%m.%Y %H:%M") %></td>
 	<td><%= form.firstname %></td>
 	<td><%= form.lastname %></td>
 	<td><%= form.street + " " + form.number.to_s %></td>
