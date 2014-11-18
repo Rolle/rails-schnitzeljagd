@@ -52,12 +52,6 @@
       </div>
     </header>
 
-    <!--header class="jumbotron subhead">
-      <div class="container">
-        <img src="/images/wappen_small.jpg">
-      </div>
-    </header-->
-
     <%= yield %>
 
     <footer class="bs-docs-footer" role="contentinfo">
@@ -65,7 +59,12 @@
       <p>
         <a href = "/kontakt.html"><i class="icon-user"></i> Kontakt<span class="divider"> | </span>
         <a href = "/impressum.html"><i class="icon-comment"></i> Impressum<span class="divider"> | </span>
-        <%= link_to "Login", new_user_session_path %><span class="divider"> | </span>
+        <% unless user_signed_in? %>
+          <%= link_to "Login", new_user_session_path %>
+        <% else %>
+          <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+        <% end %>
+        <span class="divider"> | </span>
         <a href="mailto:schnitzeljagd@bergwerk-fell.de"><i class="icon-envelope"></i> schnitzeljagd@bergwerk-fell.de</a><span class="divider">
       </p>
     </footer>
