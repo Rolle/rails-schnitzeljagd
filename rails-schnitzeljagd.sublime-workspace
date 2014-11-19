@@ -108,18 +108,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/pages/index.html.erb",
+			"file": "app/mailers/contact_mailer.rb",
 			"settings":
 			{
-				"buffer_size": 5299,
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/contact.rb",
+			"settings":
+			{
+				"buffer_size": 410,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/pages/ablauf.html.erb",
+			"file": "app/controllers/contacts_controller.rb",
 			"settings":
 			{
-				"buffer_size": 3582,
+				"buffer_size": 946,
 				"line_ending": "Windows"
 			}
 		}
@@ -157,18 +165,23 @@
 	[
 		"/C/Projects/ruby/rails-schnitzeljagd",
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations",
-		"/C/Projects/ruby/rails-schnitzeljagd/config"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer/new_contact_mail.text.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer/new_contact_mail.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/devise/sessions/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/config/routes.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
@@ -181,7 +194,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/destroy.js.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/destroy.js.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_destroy.js.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/devise/sessions/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/new.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
@@ -198,8 +210,6 @@
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/config/environments/production.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.scss",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
@@ -292,10 +302,7 @@
 		"/C/Projects/ruby/BigBrother/config/environments/production.rb",
 		"/C/Projects/ruby/BigBrother/app/views/layouts/application.html.erb",
 		"/C/Projects/ruby/BigBrother/log/production.log",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_docimport.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/_web_logins.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/layouts/_sidebar.html.erb",
-		"/C/Projects/ruby/BigBrother/app/views/statistic/params_session.html.erb"
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/_docimport.html.erb"
 	],
 	"find":
 	{
@@ -433,30 +440,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/pages/index.html.erb",
+					"file": "app/mailers/contact_mailer.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5299,
+						"buffer_size": 218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								632,
-								632
+								89,
+								105
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -467,28 +473,57 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/pages/ablauf.html.erb",
+					"file": "app/models/contact.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3582,
+						"buffer_size": 410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1407,
-								1407
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/contacts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								495,
+								495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

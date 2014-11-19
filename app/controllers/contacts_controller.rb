@@ -15,6 +15,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
     if @contact.save!
       flash.now[:notice] = 'Vielen Dank für deine Nachricht! Wir versuchen, dir umgehend zu antworten.'
+      ContactMailer.new_contact_mail(@contact).deliver
     else
       flash.now[:error] = 'Nachricht konnte nicht gesendet werden.'      
     end
