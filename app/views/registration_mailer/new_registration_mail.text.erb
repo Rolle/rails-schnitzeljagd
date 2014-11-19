@@ -1,0 +1,12 @@
+Neues Team hat sich angemeldet <%= @registration.email %>
+=====================================================
+
+Team: <%= @registration.teamname %>
+
+
+Adresse
+ Name: <%= @registration.firstname %> + <%= @registration.lastname %>
+ Strasse: <%= @registration.street %> + <%= @registration.number.to_s %>
+ Ort: <%= @registration.zipcode %> + <%= @registration.town %>
+
+ Team: <%= @registration.members %>

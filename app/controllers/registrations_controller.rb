@@ -26,6 +26,7 @@ class RegistrationsController < ApplicationController
     
     if @registration.save!
       flash.now[:notice] = 'Vielen Dank für Eure Anmeldung. Sobald wir diese bearbeitet haben und die Startgebühr auf unserem Konto eingegangen ist, werden wir Euch benachrichtigen.'
+      RegistrationMailer.new_registration_mail(@registration).deliver
     else
       flash.now[:error] = 'Anmeldung konnte nicht durchgeführt werden.'
     end
