@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  respond_to :html, :js, :json
+  respond_to :html, :js
   before_action :authenticate_user!, only: :index
 
   def destroy
