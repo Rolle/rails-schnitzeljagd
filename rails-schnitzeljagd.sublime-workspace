@@ -108,18 +108,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/pages/index.html.erb",
+			"file": "app/views/pages/anfahrt.html.erb",
 			"settings":
 			{
-				"buffer_size": 5461,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/pages/strecke.html.erb",
-			"settings":
-			{
-				"buffer_size": 2654,
+				"buffer_size": 2678,
 				"line_ending": "Windows"
 			}
 		}
@@ -157,13 +149,13 @@
 	[
 		"/C/Projects/ruby/rails-schnitzeljagd",
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/images",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/contact_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models/contact.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
@@ -172,7 +164,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/devise/sessions/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/config/routes.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
@@ -206,7 +197,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anmeldung.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/jquery.fancybox.css",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css",
@@ -429,24 +419,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/pages/index.html.erb",
+					"file": "app/views/pages/anfahrt.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5461,
+						"buffer_size": 2678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4969,
-								4969
+								1061,
+								1061
 							]
 						],
 						"settings":
@@ -455,46 +445,11 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1215.0,
+						"translation.y": 103.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/pages/strecke.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2540,
-								2540
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"file": "app/assets/images/logo_biker_bergwerk_small.jpg",
-					"semi_transient": true,
 					"stack_index": 0,
-					"type": "image"
+					"type": "text"
 				}
 			]
 		}
