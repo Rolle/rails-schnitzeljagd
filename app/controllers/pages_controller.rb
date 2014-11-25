@@ -5,16 +5,10 @@ class PagesController < ApplicationController
   def anfahrt
   end
 
-  def anmeldung
-  end
-
   def impressum
   end
 
   def index
-  end
-
-  def kontakt
   end
 
   def strecke

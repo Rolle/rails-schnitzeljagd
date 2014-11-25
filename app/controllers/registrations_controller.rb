@@ -9,6 +9,7 @@ class RegistrationsController < ApplicationController
 
   def new
     @registration = Registration.new
+    @disabled = DateTime.now < "01.04.2015"
   end
 
   def index
