@@ -100,7 +100,11 @@
 					<h3>Startgebühr</h3>
 				</div>
 				<div class="panel-body">
-					<p>Die Startgebühr beträgt <b>pro Teammitglied 10 Euro</b>. Bitte überweist den entsprechenden Gesamtbetrag für euer Team auf das Konto 1234567 bei der Spasskatze Trier, BLZ 123123123. Wichtig: als Referenz bitte die Mail-Adresse der Registrierung und den Teamnamen angeben, damit wir den Zahlungseingang zuordnen können!</p>
+					<p>Die Startgebühr beträgt <b>pro Teammitglied 10 Euro</b>.</p>
+					<%if !@disabled%>
+						<p> Bitte überweist den entsprechenden Gesamtbetrag für euer Team auf das Konto 1234567 bei der Spasskatze Trier, BLZ 123123123. Wichtig: als Referenz bitte die Mail-Adresse der Registrierung und den Teamnamen angeben, damit wir den Zahlungseingang zuordnen können!</p>
+
+					<% end %>
 				</div>
 			</div>
 		</div>
