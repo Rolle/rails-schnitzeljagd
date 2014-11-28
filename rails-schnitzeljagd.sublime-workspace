@@ -108,26 +108,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/pages/index.html.erb",
+			"file": "app/views/pages/impressum.html.erb",
 			"settings":
 			{
-				"buffer_size": 5749,
-				"line_ending": "Unix"
+				"buffer_size": 7350,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 3945,
-				"line_ending": "Unix"
+				"buffer_size": 4156,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/registrations/new.html.erb",
+			"file": "app/views/contacts/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 6258,
+				"buffer_size": 3094,
 				"line_ending": "Windows"
 			}
 		}
@@ -163,28 +163,30 @@
 	},
 	"expanded_folders":
 	[
-		"/home/roland/projects/rails-schnitzeljagd",
-		"/home/roland/projects/rails-schnitzeljagd/app",
-		"/home/roland/projects/rails-schnitzeljagd/app/views",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations"
+		"/C/Projects/ruby/rails-schnitzeljagd",
+		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/contact_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models/contact.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer/new_contact_mail.text.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contact_mailer/new_contact_mail.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/devise/sessions/new.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/config/routes.rb",
@@ -198,7 +200,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/destroy.js.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/destroy.js.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_destroy.js.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/new.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/config/routes.rb",
@@ -441,19 +442,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/pages/index.html.erb",
+					"file": "app/views/pages/impressum.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5749,
+						"buffer_size": 7350,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								216,
-								216
+								113,
+								99
 							]
 						],
 						"settings":
@@ -474,15 +475,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3945,
+						"buffer_size": 4156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1674,
-								1674
+								2782,
+								2782
 							]
 						],
 						"settings":
@@ -492,7 +493,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -500,19 +501,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/registrations/new.html.erb",
-					"semi_transient": false,
+					"file": "app/views/contacts/new.html.erb",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6258,
+						"buffer_size": 3094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5998,
-								5998
+								147,
+								147
 							]
 						],
 						"settings":
@@ -521,7 +522,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1805.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
