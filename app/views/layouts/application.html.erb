@@ -59,15 +59,19 @@
     <footer class="bs-docs-footer" role="contentinfo">
       <p>Schnitzeljagd 2015</p>
       <p>
-        <a href = "/kontakt.html"><i class="icon-user"></i> Kontakt<span class="divider"> | </span>
-        <a href = "/impressum.html"><i class="icon-comment"></i> Impressum<span class="divider"> | </span>
+        <a href = "/kontakt.html"><span class="glyphicon glyphicon-comment"></span> Kontakt</a><span class="divider"> | </span>
+        <a href = "/impressum.html"><span class="glyphicon glyphicon-link"></span> Impressum</a><span class="divider"> | </span>
         <% unless user_signed_in? %>
-          <%= link_to "Login", new_user_session_path %>
+          <%= link_to new_user_session_path do %>
+            <span class="glyphicon glyphicon-user"></span> Login
+          <% end %>
         <% else %>
-          <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+          <%= link_to destroy_user_session_path, method: :delete do %>
+              <span class="glyphicon glyphicon-user"></span> Logout
+            <% end %>
         <% end %>
         <span class="divider"> | </span>
-        <a href="mailto:info@mtb-schnitzeljagd.de"><i class="icon-envelope"></i> info@mtb-schnitzeljagd.de</a><span class="divider">
+        <a href="mailto:info@mtb-schnitzeljagd.de"><span class="glyphicon glyphicon-envelope"></span> info@mtb-schnitzeljagd.de</a>
       </p>
     </footer>
   </body>
