@@ -107,18 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "Streckenlängen:\n\nBW - Herler Wacken: 4,1km (über Fellerhof)\nBW - Burgkopf: 7,4km (über Grundtal)\nBW - Steinbruch Thomm: 1,4km\nBW - Fürstengrab: 4,7km (Thommer Bach)\nBW - Kasterhütte 6,5km\n\n8,2+14,8+2,8+9,4+13=48\n\nBW - Fellerhof: 2,1km\n\nBW - Outback: 8,8km (über Feller Hof, Herl)\nBW - Burgkopf: 8,2km (über Feller Hof)\nBW - Halde Mertesnaf: 1,8km\n",
-			"file": "streckenlängen.txt",
-			"file_size": 327,
-			"file_write_time": 130619357589399896,
-			"settings":
-			{
-				"buffer_size": 347,
-				"line_ending": "Unix",
-				"name": "Streckenlängen:"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -151,13 +139,16 @@
 	},
 	"expanded_folders":
 	[
-		"/home/roland/projects/rails-schnitzeljagd",
-		"/home/roland/projects/rails-schnitzeljagd/app",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations"
+		"/C/Projects/ruby/rails-schnitzeljagd",
+		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/streckenlängen.txt",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts/application.html.erb",
@@ -165,7 +156,6 @@
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/anfahrt.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/contact_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/models/contact.rb",
@@ -284,8 +274,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_order_confirmations.js.erb",
 		"/C/Temp/purecss/index.html",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sessions_last_6.js.erb",
-		"/C/Projects/ruby/BigBrother/config/environment.rb",
-		"/C/Projects/ruby/BigBrother/config/environments/production.rb"
+		"/C/Projects/ruby/BigBrother/config/environment.rb"
 	],
 	"find":
 	{
@@ -423,38 +412,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "streckenlängen.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Streckenlängen:",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
