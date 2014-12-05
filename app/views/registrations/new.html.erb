@@ -26,7 +26,7 @@
     	  				</div>
     				<% end -%>
 
-					<p>Die Anmeldung erfolgt über das folgende Formular. Damit die Anmeldung wirksam wird, muss die entsprechende Anmeldegebühr (pro Fahrer 10€ unter Angabe von Mail-Adresse und Team-Namen) auf das unten angegebene Konto überwiesen werden. Den Eingang der Anmeldegebühr werden wir per E-Mail bestätigen, daher bitte unbedingt eine gültige Mail-Adresse angeben.</p>
+					<p>Die Registrierung erfolgt über das folgende Formular. Am Tag der Veranstaltung muss die Teilnahmegebühr (pro Fahrer 10€) vor dem Start am Bergwerk entrichtet werden. Anmeldungen ohne vorherige Registrierung sind bis zum Start möglich, das Teilnehmerfeld ist jedoch beschränkt und es besteht dann kein Anspruch auf Teilnahme und das Souvenir.</p>
 					<%= form_for @registration, :html => {:class=>"form-horizontal", :role=>"form"} do |f| %>
 						
 						<!--%= f.error_messages %-->
@@ -95,18 +95,15 @@
 					<% end %>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<!--div class="panel panel-primary">
 				<div class="panel-heading">
 					<h3>Startgebühr</h3>
 				</div>
 				<div class="panel-body">
-					<p>Die Startgebühr beträgt <b>pro Teammitglied 10 Euro</b>.</p>
-					<%if !@disabled%>
-						<p> Bitte überweist den entsprechenden Gesamtbetrag für euer Team auf das Konto 1234567 bei der Spasskatze Trier, BLZ 123123123. Wichtig: als Referenz bitte die Mail-Adresse der Registrierung und den Teamnamen angeben, damit wir den Zahlungseingang zuordnen können!</p>
-
-					<% end %>
+					<p>Die Startgebühr beträgt <b>pro Teammitglied 10 Euro</b>. Die Startgebühr muss am Tag der Veranstaltung vor Ort entrichtet werden.</p>
+					<p></p>
 				</div>
-			</div>
+			</div-->
 		</div>
 		<div class="col-md-3">
 			<%= link_to image_tag("mtb1_thumb.jpg", :class=>"img-responsive"), image_url("mtb1.jpg"), :class=>"fancybox thumbnail" %>

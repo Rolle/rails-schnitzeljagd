@@ -107,6 +107,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 4724,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 6022,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/contacts/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 3091,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/impressum.html.erb",
+			"settings":
+			{
+				"buffer_size": 7396,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -140,13 +172,17 @@
 	"expanded_folders":
 	[
 		"/C/Projects/ruby/rails-schnitzeljagd",
+		"/C/Projects/ruby/rails-schnitzeljagd/app",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
-		"/C/Projects/ruby/rails-schnitzeljagd/config"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registration_mailer",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
+		"/C/Projects/ruby/rails-schnitzeljagd/.gitignore",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
@@ -171,7 +207,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/danke_kontakt.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/index.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/_form.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/destroy.js.erb",
@@ -273,8 +308,7 @@
 		"/C/Projects/ruby/BigBrother/config/torquebox.yml",
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_order_confirmations.js.erb",
 		"/C/Temp/purecss/index.html",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sessions_last_6.js.erb",
-		"/C/Projects/ruby/BigBrother/config/environment.rb"
+		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_sessions_last_6.js.erb"
 	],
 	"find":
 	{
@@ -412,8 +446,126 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1963,
+								1963
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/registrations/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1424,
+								1424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/contacts/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2991,
+								2991
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/pages/impressum.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
