@@ -107,30 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/pages/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 7196,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/pages/strecke.html.erb",
-			"settings":
-			{
-				"buffer_size": 3004,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/pages/ablauf.html.erb",
-			"settings":
-			{
-				"buffer_size": 3507,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -164,17 +140,16 @@
 	"expanded_folders":
 	[
 		"/C/Projects/ruby/rails-schnitzeljagd",
-		"/C/Projects/ruby/rails-schnitzeljagd/app",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
+		"/C/Projects/ruby/rails-schnitzeljagd/config"
 	],
 	"file_history":
 	[
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/streckenlängen.txt",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
@@ -437,96 +412,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/pages/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7196,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2038,
-								2038
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 116.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/pages/strecke.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3004,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1259,
-								1259
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/pages/ablauf.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1408,
-								1408
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
