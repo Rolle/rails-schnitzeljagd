@@ -3,6 +3,6 @@ class ContactMailer < ActionMailer::Base
 
   def new_contact_mail(contact)
   	@contact = contact
-  	mail(to: 'rolle@rolandschmitt.info', subject: "Anfrage: " + @contact.message.first(30))
+  	mail(to: 'info@mtb-schnitzeljagd.de', subject: "Anfrage: " + @contact.message.first(30))
   end
 end
