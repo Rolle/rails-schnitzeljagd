@@ -114,6 +114,22 @@
 				"buffer_size": 3622,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "app/controllers/registrations_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/contacts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 960,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -149,6 +165,7 @@
 	[
 		"/C/Projects/ruby/rails-schnitzeljagd",
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
@@ -422,7 +439,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -451,7 +468,67 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/registrations_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/contacts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

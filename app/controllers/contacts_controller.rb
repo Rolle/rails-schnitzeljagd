@@ -4,6 +4,7 @@ class ContactsController < ApplicationController
 
   def destroy
     @contact = Contact.find(params[:id])
+    @contact.destroy
     respond_with @registration
   end
 

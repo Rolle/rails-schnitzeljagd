@@ -4,6 +4,7 @@ class RegistrationsController < ApplicationController
 
   def destroy
     @registration = Registration.find(params[:id])
+    @registration.destroy
     respond_with @registration
   end
 
