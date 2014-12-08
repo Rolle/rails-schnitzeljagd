@@ -119,7 +119,15 @@
 			"file": "app/controllers/registrations_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1234,
+				"buffer_size": 1190,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 5777,
 				"line_ending": "Windows"
 			}
 		},
@@ -439,7 +447,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -468,7 +476,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -477,15 +485,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1234,
+						"buffer_size": 1190,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								219,
-								219
+								305,
+								305
 							]
 						],
 						"settings":
@@ -498,11 +506,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "app/views/registrations/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2598,
+								2598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "app/controllers/contacts_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -528,7 +565,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

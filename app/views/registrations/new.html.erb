@@ -9,7 +9,7 @@
 		<div class="col-md-9" role="main">
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3>Anmeldung - <b>Freischaltung am 01.03.2015 !</b></h3>
+					<h3>Anmeldung</b></h3>
 				</div>
 				<div class="panel-body">
 					<%if flash.now[:notice] %>
@@ -32,64 +32,64 @@
 						<!--%= f.error_messages %-->
 						<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :firstname) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Vorname:</label>
-					    	<div class="col-sm-6">
-					      		<%= f.text_field :firstname, :required=> true, :class=>"form-control", disabled: @disabled %>
+					    	<div class="col-sm-7">
+					      		<%= f.text_field :firstname, :required=> true, :class=>"form-control"%>
 					      		<%= raw formfield_class_and_symbol(@registration, :firstname) %>
 					    	</div>
 				  		</div>
 						<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :lastname) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Nachname:</label>
-					    	<div class="col-sm-6">
-					      		<%= f.text_field :lastname, :required=> true, :class=>"form-control", disabled: @disabled %>
+					    	<div class="col-sm-7">
+					      		<%= f.text_field :lastname, :required=> true, :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :lastname) %>
 					    	</div>
 				  		</div>				  		
 				  		<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :street) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Strasse / Hausnummer:</label>
-					    	<div class="col-sm-4">
-					      		<%= f.text_field  :street, :required=> true, :class=>"form-control", disabled: @disabled %>
+					    	<div class="col-sm-5">
+					      		<%= f.text_field  :street, :required=> true, :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :street) %>
 					    	</div>					    	
 					    	<div class="col-sm-2">
-					      		<%= f.text_field  :number, :required=> true, :type=>'number', :class=>"form-control", disabled: @disabled %>
+					      		<%= f.text_field  :number, :required=> true, :type=>'number', :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :number) %>
 					    	</div>
 				  		</div>
 						<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :zipcode) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Postleitzahl / Ort:</label>
-					    	<div class="col-sm-2">
-					      		<%= f.text_field :zipcode, :required=> true, :type => 'number', :class=>"form-control", disabled: @disabled %>
+					    	<div class="col-sm-3">
+					      		<%= f.text_field :zipcode, :required=> true, :type => 'number', :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :zipcode) %>
 					      	</div>
 					    	<div class="col-sm-4">
-					      		<%= f.text_field :town, :required=> true, :class=>"form-control", disabled: @disabled %>
+					      		<%= f.text_field :town, :required=> true, :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :town) %>
 					    	</div>
 				  		</div>
 				  		<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :email) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">EMail-Adresse:</label>
-					    	<div class="col-sm-6">
-					      		<%= f.email_field  :email, :required=> true, :type=>"email", :class=>"form-control", disabled: @disabled %>
+					    	<div class="col-sm-7">
+					      		<%= f.email_field  :email, :required=> true, :type=>"email", :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :email) %>
 					    	</div>
 				  		</div>
 				  		<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :teamname) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Name des Teams:</label>
-					    	<div class="col-sm-6">
-					      		<%= f.text_field  :teamname, :required=> true, :class=>"form-control", disabled: @disabled %>
+					    	<div class="col-sm-7">
+					      		<%= f.text_field  :teamname, :required=> true, :class=>"form-control" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :teamname) %>
 					    	</div>
 				  		</div>
 				  		<div class="form-group has-feedback <%= raw formfield_error_class(@registration, :members) %>">
 					    	<label for="inputEmail3" class="col-sm-2 control-label">Namen der Teammitglieder:</label>
-					    	<div class="col-sm-6">
-					      		<%= f.text_area :members, :required=> true, :class=>"form-control", :rows=>"3", :placeholder=>"z.B. Karl,Otto,Heinz", disabled: @disabled %>
+					    	<div class="col-sm-7">
+					      		<%= f.text_area :members, :required=> true, :class=>"form-control", :rows=>"3", :placeholder=>"z.B. Karl,Otto,Heinz" %>
 					      		<%= raw formfield_class_and_symbol(@registration, :members) %>
 					    	</div>
 				  		</div>
 					  	<div class="form-group">
 					    	<div class="col-sm-offset-2 col-sm-10">
-					      		<%= f.submit "Anmelden", :class=>"btn btn-primary", disabled: @disabled%>
+					      		<%= f.submit "Anmelden", :class=>"btn btn-primary" %>
 					    	</div>
 					  	</div>
 					<% end %>
