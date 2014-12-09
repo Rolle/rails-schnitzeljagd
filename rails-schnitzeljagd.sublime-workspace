@@ -114,6 +114,14 @@
 				"buffer_size": 1152,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -151,11 +159,7 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/models",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registration_mailer",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models"
 	],
 	"file_history":
 	[
@@ -424,7 +428,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -449,6 +453,34 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
