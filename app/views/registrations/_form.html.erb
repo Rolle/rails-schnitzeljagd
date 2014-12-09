@@ -1,21 +1,28 @@
 <tr id="registration_row_<%= form.id.to_s %>">
 	<td><%= form.teamname %></td>
-	<td><%= form.created_at.strftime("%d.%m.%Y %H:%M") %></td>
+	<% if user_signed_in?%>
+		<td><%= form.created_at.strftime("%d.%m.%Y %H:%M") %></td>
+	<% end %>
 	<td><%= form.firstname %></td>
 	<td><%= form.lastname %></td>
-	<td><%= form.street + " " + form.number.to_s %></td>
+	<<% if user_signed_in?%>
+		<td><%= form.street + " " + form.number.to_s %></td>
+	<% end %>
 	<td><%= form.zipcode + " " + form.town %></td>
-	<td><%= form.email %></td>
-	<td><%= form.members %></td>
-	<td>
-		<%= check_box_tag('ck_'+form.id.to_s, form.paid, form.paid,					  
-		  :data => {
-		    :remote=> true, :url => url_for(controller: 'registrations', action: :paid, id: form.id), id: form.id
-		  }
-		)-%>
-	</td>
-	<td>
-		<%= link_to('<i class="btn btn-danger btn-sm glyphicon glyphicon-remove"></i>'.html_safe, form, method: :delete, remote: :true, data: { confirm: 'Wirklich löschen?'}) %>
-	</td>
+	<% if user_signed_in?%>		
+		<td><%= form.email %></td>
+		<td><%= form.members %></td>
+
+		<td>
+			<%= check_box_tag('ck_'+form.id.to_s, form.paid, form.paid,					  
+			  :data => {
+			    :remote=> true, :url => url_for(controller: 'registrations', action: :paid, id: form.id), id: form.id
+			  }
+			)-%>
+		</td>
+		<td>
+			<%= link_to('<i class="btn btn-danger btn-sm glyphicon glyphicon-remove"></i>'.html_safe, form, method: :delete, remote: :true, data: { confirm: 'Wirklich löschen?'}) %>
+		</td>
+	<% end %>
 
 </tr>

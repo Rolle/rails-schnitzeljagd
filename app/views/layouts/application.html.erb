@@ -48,13 +48,13 @@
             <li id="strecke"><%= link_to "Strecke", pages_strecke_path %></li>
             <li id="ablauf"><%= link_to "Ablauf", pages_ablauf_path %>
             <li id="anmeldung"><%= link_to "Anmeldung", new_registration_path %></li>
+            <li id="meldeliste"><%= link_to "Meldeliste", registrations_path %></li>
             <li id="anfahrt"><%= link_to "Anfahrt", pages_anfahrt_path %></li>            
             <li id="kontakt"><%= link_to "Kontakt", new_contact_path %></li>
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <% if user_signed_in? %>
-              <li id="teams"><%= link_to "Teams", registrations_path %></li>
               <li id="anfragen"><%= link_to "Anfragen", contacts_path %></li>
             <% end %>
             <li id="impressum"><%= link_to "Impressum", pages_impressum_path %></li>

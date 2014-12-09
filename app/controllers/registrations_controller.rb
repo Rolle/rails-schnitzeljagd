@@ -1,6 +1,5 @@
 class RegistrationsController < ApplicationController
   respond_to :html, :js
-  before_action :authenticate_user!, only: :index
 
   def destroy
     @registration = Registration.find(params[:id])
@@ -13,7 +12,7 @@ class RegistrationsController < ApplicationController
   end
 
   def index
-    @registrations = Registration.all.order("teamname")
+    @registrations = Registration.all.order("lastname")
   end
 
   def paid
