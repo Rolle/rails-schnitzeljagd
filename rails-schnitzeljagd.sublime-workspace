@@ -107,22 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/controllers/registrations_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1152,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1370,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -159,24 +143,31 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/models"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/models",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations",
+		"/C/Projects/ruby/rails-schnitzeljagd/db"
 	],
 	"file_history":
 	[
+		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/contact_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/registration_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/streckenlängen.txt",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/impressum.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/.gitignore",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts/application.html.erb",
@@ -192,8 +183,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/config/routes.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/danke_kontakt.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/index.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/index.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/_form.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/contacts/destroy.js.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/destroy.js.erb",
@@ -301,6 +290,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views",
 			"C:\\Projects\\ruby\\rails-schnitzeljagd\\app",
 			"C:\\Projects\\ruby\\BigBrother\\app\\",
 			"C:\\Projects\\ruby\\BigBrother\\app\\models",
@@ -314,6 +304,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"km",
 			"icon_top",
 			"icon_tap",
 			"assets",
@@ -428,67 +419,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/controllers/registrations_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								785,
-								785
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								119,
-								119
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
