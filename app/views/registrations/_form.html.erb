@@ -5,7 +5,7 @@
 	<% end %>
 	<td><%= form.firstname %></td>
 	<td><%= form.lastname %></td>
-	<<% if user_signed_in?%>
+	<% if user_signed_in?%>
 		<td><%= form.street + " " + form.number.to_s %></td>
 	<% end %>
 	<td><%= form.zipcode + " " + form.town %></td>

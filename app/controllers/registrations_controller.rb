@@ -12,7 +12,11 @@ class RegistrationsController < ApplicationController
   end
 
   def index
-    @registrations = Registration.all.order("lastname")
+    if (user_signed_in?)
+      @registrations = Registration.all.order("lastname")
+    else
+      @registrations = Registration.where("paid = 't'").order("lastname")
+    end
   end
 
   def paid
