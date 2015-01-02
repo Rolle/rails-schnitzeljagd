@@ -129,7 +129,7 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1370,
+				"buffer_size": 1366,
 				"line_ending": "Windows"
 			}
 		},
@@ -189,16 +189,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Projects/ruby/rails-schnitzeljagd",
-		"/C/Projects/ruby/rails-schnitzeljagd/app",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/models",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations",
-		"/C/Projects/ruby/rails-schnitzeljagd/db"
+		"/home/roland/projects/rails-schnitzeljagd"
 	],
 	"file_history":
 	[
@@ -768,15 +759,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1370,
+						"buffer_size": 1366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								119
+								115,
+								115
 							]
 						],
 						"settings":
