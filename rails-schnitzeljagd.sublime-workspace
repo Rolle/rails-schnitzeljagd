@@ -108,52 +108,10 @@
 	"buffers":
 	[
 		{
-			"contents": "Searching 27 files for \"Bergwerk\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\layouts\\application.html.erb:\n   40            </button>\n   41            <!--a class=\"navbar-brand\" href=\"#\"Schnitzeljagd '15</a-->\n   42:           <a class=\"navbar-brand\" href=\"/\"><%= image_tag \"logo_biker_bergwerk_small.jpg\", :class=>\"img-responsive\"%></a>\n   43          </div>\n   44  \n   ..\n   59              <% end %>\n   60              <li id=\"impressum\"><%= link_to \"Impressum\", pages_impressum_path %></li>\n   61:             <li id=\"impressum\"><%= link_to image_tag(\"fb.png\"), \"https://www.facebook.com/BesucherbergwerkFell\", target: \"_blank\" %></li>\n   62            </ul>\n   63          </nav>\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\ablauf.html.erb:\n   13  				</div>\n   14  				<div class=\"panel-body\">\n   15: 					<p>Die Anmeldung und die Herausgabe der Startunterlagen (kleine Übersichtskarte, Notfallnummer) erfolgt ab 9.00 Uhr (Bistro Besucherbergwerk), gleichzeitig ziehen die Teilnehmer die erste Aufgabe (somit bleibt noch Zeit zum Planen). Um 9.30 Uhr erfolgt eine kurze Besprechung/Einweisung, danach gehen die Starter zum Parkplatz, wo der eigentliche Start erfolgt.</p>\n   16: 					<p>Der Startschuß fällt um 10.00 Uhr auf dem Besucherparkplatz des Besucherbergwerkes Fell (siehe <u><%= link_to \"Anfahrt\", pages_anfahrt_path %></u>) - die Starter brechen in verschiedene Richtungen zu ihren jeweiligen Zielen auf.</p>\n   17  					<p> Gestartet wird in Le-Mans-Manier: die Räder werden vor dem Start in einem vorgegebenen Bereich abgestellt, die Starter stellen hinter der Startlinie auf. Nach erfolgtem Startschuß gehen/laufen/sprinten die Teilnehmer zum (hoffentlich) richtigen Rad, sitzen auf und fahren los.</p>\n   18  					Zeitplan:\n   ..\n   42  				</div>\n   43  				<div class=\"panel-body\">\n   44: 					<p>Nachdem alle angegebenen Zielpunkte angefahren und alle Aufgaben erfüllt wurden, kann der letzte Rückweg zum Besucherbergwerk Fell angetreten werden. Das Ziel liegt dabei am Museum/Bistro - dort erfolgt die Zeitnahme und die Streckenkarten werden abgegeben.</p>\n   45  				</div>\n   46  			</div>					\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\anfahrt.html.erb:\n   17  				<p>Adresse für Navigationsgeräte:</p>					\n   18  				<address>\n   19: 				  <strong>Besucherbergwerk Fell</strong><br>\n   20  				  Auf den Schiefergruben 1<br>\n   21  				  54341 Fell<br>\n   22  				</address>\n   23: 				<p>Ab Fell der Beschilderung zum Besucherbergwerk folgen.</p>\n   24  				<script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?sensor=false\"></script>\n   25  \n   ..\n   38  				</div>\n   39  \n   40: 				<!--script type=\"text/javascript\"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(49.7541815,6.797957999999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById(\"gmap_canvas\"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.7541815, 6.797957999999994)});infowindow = new google.maps.InfoWindow({content:\"<b>Besucherbergwerk Fell</b><br/>Auf den Schiefergruben 1<br/>54314 Fell\" });google.maps.event.addListener(marker, \"click\", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);\n   41  				</script-->\n   42  				\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\impressum.html.erb:\n   15  					<address>\n   16  						<h4>Angaben gemäß § 5 TMG:</h4>\n   17: 						<p>Besucherbergwerk Fell<br />\n   18  						Kirchstraße 43<br />\n   19  						D-54341 Fell\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   16  				</div>\n   17  				<div class=\"panel-body\">\n   18: 					<p>Bei der MTB-Schnitzeljagd müssen 6 Stationen rund um das <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a> mit Hilfe von GPS-Koordinaten in zufälliger Reihenfolge gefunden und dort Aufgaben gelöst werden. Start ist am <b>06.09.2015</b> um <b>10:00</b> Uhr am <b>Besucherbergwerk Fell</b>. Mitmachen kann <b>jeder</b>, der ein Fahrrad hat und damit um die <b>40km</b> und <b>1000 Höhenmeter</b> bewältigen kann. Gewonnen hat, wer alle Aufgaben in der kürzesten Zeit lösen konnte.</p>\n   19  				</div>\n   20  			</div>			\n   ..\n   28  					<p>Die Wegeplanung zum Erreichen der Wegepunkte wird den teilnehmenden Teams bzw. Einzelfahrern überlassen, d.h. jedes Team/jeder Fahrer muss sich eine eigene Strecke pber die vorgegebenen GPS-Koordinaten suchen.</p>\n   29  \n   30: 					<p>An jeder Station erhält das Team/der Fahrer eine Aufgabe: das kann ein Rätsel sein, eine Geschicklichkeitsprüfung oder ein Mitbringsel. Nachdem die Aufgabe gelöst wurde, erfolgt die Rückkehr zum Bergwerk, dort wird per Los die nächste Aufgabe ermittelt. Für Teams ist es somit möglich, die Aufgaben zu teilen - so können Fahrer auch Aufgaben aussetzen und bei einer der nächsten Aufgaben wieder einsteigen. Oder jeder Fahrer fährt nur eine Aufgabe... Einzelfahrer haben diese Luxus natürlich nicht.</p>\n   31  \n   32: 					<p>Wer mit allen sechs notwendigen Steinen, Antworten, Stempeln etc. wieder am Startpunkt, also dem <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a>, erscheint, gewinnt das goldene Schieferherz!</p>\n   33  \n   34: 					<p>Eine Zeitnahme erfolgt nur innerhalb der begonnenen Aufgabe. Es kann also am Bergwerk pausiert werden, ohne das diese Zeit angerechnet wird. Die Uhr pro Team/Fahrer läuft ab Auslosung der Station bis zum Eintreffen mit der Lösung der gestellten Aufgabe. Alle 6 Aufgaben müssen vor Zielschluß beendet sein.</p>\n   35  					<p>Teams/Fahrer mit der kürzesten Zeit pro Aufgabe erhalten ebenfalls einen Preis.</p>\n   36  				</div>\n   ..\n   92  					<p>Der Start erfolgt als sogenannter \"Le-Mans-Start\", d. h. die Fahrräder werden vor dem Start im Startbereich abgelegt/abgestellt, nach dem Startschuss sprinten die Fahrer zu ihren Rädern, um aufzusitzen und loszufahren. Die Räder werden in der Reihenfolge abgelegt/-gestellt, in der die Teilnehmer zum Start erscheinen bzw. sich einschreiben.</p>\n   93  					<p>Für alle Teilnehmer besteht Helmpflicht, es gelten die Regeln der StVO - die Teilnehmer verpflichten sich, diese einzuhalten. Außerdem legen wir Wert auf die <a href=\"http://www.dimb.de/aktivitaeten/open-trails/trail-rules\" target=\"_blank\"><u>DIMB-Trailrules</u></a>.</p>\n   94: 					<p>Einnahmen aus der Veranstaltung kommen dem Förderverein Besucherbergwerk e.V. zugute.</p>\n   95  				</div>\n   96  			</div>			\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\strecke.html.erb:\n   14  				<div class=\"panel-body\">\n   15  					<p>Da die Strecke individuell von den Teilnehmern geplant wird, variiert auch die Streckenlänge und damit die zu fahrenden Höhenmeter. Als grober Anhaltspunkt sind ca. 40km mit rund 1000 Hm zu erwarten.</p>\n   16: 					<p>Die Stationen werden sich alle innerhalb des unten abgebildeten Kartenabschnitts befinden, also im Umkreis von rund 10km um das Besucherbergwerk Fell. Sie werden nicht separat ausgeschildert, aber in der zugelosten Aufgabenbeschreibung genau beschrieben (GPS-Koordinaten, Ortsbeschreibung). Als Stationen können z.B. Grillhütten, Lokale oder Wegekreuze dienen.</p>\n   17  					\n   18  					<p>Während der Veranstaltung ist die Telefonnummer 06502 - 98 85 88 besetzt, falls sich jemand verfahren hat, es Fragen zu Stationen gibt oder das Flickzeug ausgegangen sein sollte. </p>\n   ..\n   43  				</div>\n   44  				<div class=\"panel-body\">\n   45: 					<p>Auf der Strecke wird keine Verpflegung angeboten. Da die einzelnen Aufgaben jedoch relativ kurz sind und Pausen nicht in die Zeitnahme eingehen, ist eine Verpflegung am Bergwerk problemlos möglich.</p>\n   46  				</div>\n   47  			</div>			\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\registrations\\new.html.erb:\n   27      				<% end -%>\n   28  \n   29: 					<p>Die Registrierung erfolgt über das folgende Formular. Am Tag der Veranstaltung muss die Teilnahmegebühr (pro Fahrer 10€, Einnahmen aus der Veranstaltung kommen dem Förderverein Besucherbergwerk e.V. zugute) vor dem Start am Bergwerk entrichtet werden. Anmeldungen ohne vorherige Registrierung sind bis zum Start möglich, das Teilnehmerfeld ist jedoch beschränkt und es besteht dann kein Anspruch auf Teilnahme und das Souvenir.</p>\n   30  					<p>Die Startplätze sind begrenzt.</p>\n   31  					<%= form_for @registration, :html => {:class=>\"form-horizontal\", :role=>\"form\"} do |f| %>\n\n21 matches across 7 files\n\n\nSearching 27 files for \"Bergwerk\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\layouts\\application.html.erb:\n   40            </button>\n   41            <!--a class=\"navbar-brand\" href=\"#\"Schnitzeljagd '15</a-->\n   42:           <a class=\"navbar-brand\" href=\"/\"><%= image_tag \"logo_biker_bergwerk_small.jpg\", :class=>\"img-responsive\"%></a>\n   43          </div>\n   44  \n   ..\n   59              <% end %>\n   60              <li id=\"impressum\"><%= link_to \"Impressum\", pages_impressum_path %></li>\n   61:             <li id=\"impressum\"><%= link_to image_tag(\"fb.png\"), \"https://www.facebook.com/BesucherbergwerkFell\", target: \"_blank\" %></li>\n   62            </ul>\n   63          </nav>\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\ablauf.html.erb:\n   13  				</div>\n   14  				<div class=\"panel-body\">\n   15: 					<p>Die Anmeldung und die Herausgabe der Startunterlagen (kleine Übersichtskarte, Notfallnummer) erfolgt ab 9.00 Uhr (<a href=\"http://bergwerk-fell.de/index.php?id=weinstein\" target=\"_blank\"><u>Bistro Besucherbergwerk</u></a>), gleichzeitig ziehen die Teilnehmer die erste Aufgabe (somit bleibt noch Zeit zum Planen). Um 9.30 Uhr erfolgt eine kurze Besprechung/Einweisung, danach gehen die Starter zum Parkplatz, wo der eigentliche Start erfolgt.</p>\n   16: 					<p>Der Startschuß fällt um 10.00 Uhr auf dem Besucherparkplatz des <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerks Fel</u></a> (siehe <u><%= link_to \"Anfahrt\", pages_anfahrt_path %></u>) - die Starter brechen in verschiedene Richtungen zu ihren jeweiligen Zielen auf.</p>\n   17  					<p> Gestartet wird in Le-Mans-Manier: die Räder werden vor dem Start in einem vorgegebenen Bereich abgestellt, die Starter stellen hinter der Startlinie auf. Nach erfolgtem Startschuß gehen/laufen/sprinten die Teilnehmer zum (hoffentlich) richtigen Rad, sitzen auf und fahren los.</p>\n   18  					Zeitplan:\n   ..\n   42  				</div>\n   43  				<div class=\"panel-body\">\n   44: 					<p>Nachdem alle angegebenen Zielpunkte angefahren und alle Aufgaben erfüllt wurden, kann der letzte Rückweg zum <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a> angetreten werden. Das Ziel liegt dabei am Museum/Bistro - dort erfolgt die Zeitnahme und die Streckenkarten werden abgegeben.</p>\n   45  				</div>\n   46  			</div>					\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\anfahrt.html.erb:\n   17  				<p>Adresse für Navigationsgeräte:</p>					\n   18  				<address>\n   19: 				  <strong>Besucherbergwerk Fell</strong><br>\n   20  				  Auf den Schiefergruben 1<br>\n   21  				  54341 Fell<br>\n   22  				</address>\n   23: 				<p>Ab Fell der Beschilderung zum Besucherbergwerk folgen.</p>\n   24  				<script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?sensor=false\"></script>\n   25  \n   ..\n   38  				</div>\n   39  \n   40: 				<!--script type=\"text/javascript\"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(49.7541815,6.797957999999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById(\"gmap_canvas\"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.7541815, 6.797957999999994)});infowindow = new google.maps.InfoWindow({content:\"<b>Besucherbergwerk Fell</b><br/>Auf den Schiefergruben 1<br/>54314 Fell\" });google.maps.event.addListener(marker, \"click\", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);\n   41  				</script-->\n   42  				\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\impressum.html.erb:\n   15  					<address>\n   16  						<h4>Angaben gemäß § 5 TMG:</h4>\n   17: 						<p>Besucherbergwerk Fell<br />\n   18  						Kirchstraße 43<br />\n   19  						D-54341 Fell\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   16  				</div>\n   17  				<div class=\"panel-body\">\n   18: 					<p>Bei der MTB-Schnitzeljagd müssen 6 Stationen rund um das <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a> mit Hilfe von GPS-Koordinaten in zufälliger Reihenfolge gefunden und dort Aufgaben gelöst werden. Start ist am <b>06.09.2015</b> um <b>10:00</b> Uhr am <b>Besucherbergwerk Fell</b>. Mitmachen kann <b>jeder</b>, der ein Fahrrad hat und damit um die <b>40km</b> und <b>1000 Höhenmeter</b> bewältigen kann. Gewonnen hat, wer alle Aufgaben in der kürzesten Zeit lösen konnte.</p>\n   19  				</div>\n   20  			</div>			\n   ..\n   28  					<p>Die Wegeplanung zum Erreichen der Wegepunkte wird den teilnehmenden Teams bzw. Einzelfahrern überlassen, d.h. jedes Team/jeder Fahrer muss sich eine eigene Strecke pber die vorgegebenen GPS-Koordinaten suchen.</p>\n   29  \n   30: 					<p>An jeder Station erhält das Team/der Fahrer eine Aufgabe: das kann ein Rätsel sein, eine Geschicklichkeitsprüfung oder ein Mitbringsel. Nachdem die Aufgabe gelöst wurde, erfolgt die Rückkehr zum Bergwerk, dort wird per Los die nächste Aufgabe ermittelt. Für Teams ist es somit möglich, die Aufgaben zu teilen - so können Fahrer auch Aufgaben aussetzen und bei einer der nächsten Aufgaben wieder einsteigen. Oder jeder Fahrer fährt nur eine Aufgabe... Einzelfahrer haben diese Luxus natürlich nicht.</p>\n   31  \n   32: 					<p>Wer mit allen sechs notwendigen Steinen, Antworten, Stempeln etc. wieder am Startpunkt, also dem <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a>, erscheint, gewinnt das goldene Schieferherz!</p>\n   33  \n   34: 					<p>Eine Zeitnahme erfolgt nur innerhalb der begonnenen Aufgabe. Es kann also am Bergwerk pausiert werden, ohne das diese Zeit angerechnet wird. Die Uhr pro Team/Fahrer läuft ab Auslosung der Station bis zum Eintreffen mit der Lösung der gestellten Aufgabe. Alle 6 Aufgaben müssen vor Zielschluß beendet sein.</p>\n   35  					<p>Teams/Fahrer mit der kürzesten Zeit pro Aufgabe erhalten ebenfalls einen Preis.</p>\n   36  				</div>\n   ..\n   92  					<p>Der Start erfolgt als sogenannter \"Le-Mans-Start\", d. h. die Fahrräder werden vor dem Start im Startbereich abgelegt/abgestellt, nach dem Startschuss sprinten die Fahrer zu ihren Rädern, um aufzusitzen und loszufahren. Die Räder werden in der Reihenfolge abgelegt/-gestellt, in der die Teilnehmer zum Start erscheinen bzw. sich einschreiben.</p>\n   93  					<p>Für alle Teilnehmer besteht Helmpflicht, es gelten die Regeln der StVO - die Teilnehmer verpflichten sich, diese einzuhalten. Außerdem legen wir Wert auf die <a href=\"http://www.dimb.de/aktivitaeten/open-trails/trail-rules\" target=\"_blank\"><u>DIMB-Trailrules</u></a>.</p>\n   94: 					<p>Einnahmen aus der Veranstaltung kommen dem Förderverein Besucherbergwerk e.V. zugute.</p>\n   95  				</div>\n   96  			</div>			\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\strecke.html.erb:\n   14  				<div class=\"panel-body\">\n   15  					<p>Da die Strecke individuell von den Teilnehmern geplant wird, variiert auch die Streckenlänge und damit die zu fahrenden Höhenmeter. Als grober Anhaltspunkt sind ca. 40km mit rund 1000 Hm zu erwarten.</p>\n   16: 					<p>Die Stationen werden sich alle innerhalb des unten abgebildeten Kartenabschnitts befinden, also im Umkreis von rund 10km um das <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a>. Sie werden nicht separat ausgeschildert, aber in der zugelosten Aufgabenbeschreibung genau beschrieben (GPS-Koordinaten, Ortsbeschreibung). Als Stationen können z.B. Grillhütten, Lokale oder Wegekreuze dienen.</p>\n   17  					\n   18  					<p>Während der Veranstaltung ist die Telefonnummer 06502 - 98 85 88 besetzt, falls sich jemand verfahren hat, es Fragen zu Stationen gibt oder das Flickzeug ausgegangen sein sollte. </p>\n   ..\n   43  				</div>\n   44  				<div class=\"panel-body\">\n   45: 					<p>Auf der Strecke wird keine Verpflegung angeboten. Da die einzelnen Aufgaben jedoch relativ kurz sind und Pausen nicht in die Zeitnahme eingehen, ist eine Verpflegung im <a href=\"http://www.bergwerk-fell.de/index.php?id=weinstein\" target=\"_blank\"><u>Bistro \"WeinStein\"</u></a> problemlos möglich.</p>\n   46  				</div>\n   47  			</div>			\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\registrations\\new.html.erb:\n   27      				<% end -%>\n   28  \n   29: 					<p>Die Registrierung erfolgt über das folgende Formular. Am Tag der Veranstaltung muss die Teilnahmegebühr (pro Fahrer 10€, Einnahmen aus der Veranstaltung kommen dem <a href=\"http://bergwerk-fell.de/index.php?id=foerderverein\" targer=\"_blank\"><u>Förderverein Besucherbergwerk e.V.</u></a> zugute) vor dem Start am Bergwerk entrichtet werden. Anmeldungen ohne vorherige Registrierung sind bis zum Start möglich, das Teilnehmerfeld ist jedoch beschränkt und es besteht dann kein Anspruch auf Teilnahme und das Souvenir.</p>\n   30  					<p>Die Startplätze sind begrenzt.</p>\n   31  					<%= form_for @registration, :html => {:class=>\"form-horizontal\", :role=>\"form\"} do |f| %>\n\n26 matches across 7 files\n\n\nSearching 27 files for \"www.bergwerk\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\ablauf.html.erb:\n   14  				<div class=\"panel-body\">\n   15  					<p>Die Anmeldung und die Herausgabe der Startunterlagen (kleine Übersichtskarte, Notfallnummer) erfolgt ab 9.00 Uhr (<a href=\"http://bergwerk-fell.de/index.php?id=weinstein\" target=\"_blank\"><u>Bistro Besucherbergwerk</u></a>), gleichzeitig ziehen die Teilnehmer die erste Aufgabe (somit bleibt noch Zeit zum Planen). Um 9.30 Uhr erfolgt eine kurze Besprechung/Einweisung, danach gehen die Starter zum Parkplatz, wo der eigentliche Start erfolgt.</p>\n   16: 					<p>Der Startschuß fällt um 10.00 Uhr auf dem Besucherparkplatz des <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerks Fel</u></a> (siehe <u><%= link_to \"Anfahrt\", pages_anfahrt_path %></u>) - die Starter brechen in verschiedene Richtungen zu ihren jeweiligen Zielen auf.</p>\n   17  					<p> Gestartet wird in Le-Mans-Manier: die Räder werden vor dem Start in einem vorgegebenen Bereich abgestellt, die Starter stellen hinter der Startlinie auf. Nach erfolgtem Startschuß gehen/laufen/sprinten die Teilnehmer zum (hoffentlich) richtigen Rad, sitzen auf und fahren los.</p>\n   18  					Zeitplan:\n   ..\n   42  				</div>\n   43  				<div class=\"panel-body\">\n   44: 					<p>Nachdem alle angegebenen Zielpunkte angefahren und alle Aufgaben erfüllt wurden, kann der letzte Rückweg zum <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a> angetreten werden. Das Ziel liegt dabei am Museum/Bistro - dort erfolgt die Zeitnahme und die Streckenkarten werden abgegeben.</p>\n   45  				</div>\n   46  			</div>					\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   16  				</div>\n   17  				<div class=\"panel-body\">\n   18: 					<p>Bei der MTB-Schnitzeljagd müssen 6 Stationen rund um das <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a> mit Hilfe von GPS-Koordinaten in zufälliger Reihenfolge gefunden und dort Aufgaben gelöst werden. Start ist am <b>06.09.2015</b> um <b>10:00</b> Uhr am <b>Besucherbergwerk Fell</b>. Mitmachen kann <b>jeder</b>, der ein Fahrrad hat und damit um die <b>40km</b> und <b>1000 Höhenmeter</b> bewältigen kann. Gewonnen hat, wer alle Aufgaben in der kürzesten Zeit lösen konnte.</p>\n   19  				</div>\n   20  			</div>			\n   ..\n   30  					<p>An jeder Station erhält das Team/der Fahrer eine Aufgabe: das kann ein Rätsel sein, eine Geschicklichkeitsprüfung oder ein Mitbringsel. Nachdem die Aufgabe gelöst wurde, erfolgt die Rückkehr zum Bergwerk, dort wird per Los die nächste Aufgabe ermittelt. Für Teams ist es somit möglich, die Aufgaben zu teilen - so können Fahrer auch Aufgaben aussetzen und bei einer der nächsten Aufgaben wieder einsteigen. Oder jeder Fahrer fährt nur eine Aufgabe... Einzelfahrer haben diese Luxus natürlich nicht.</p>\n   31  \n   32: 					<p>Wer mit allen sechs notwendigen Steinen, Antworten, Stempeln etc. wieder am Startpunkt, also dem <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a>, erscheint, gewinnt das goldene Schieferherz!</p>\n   33  \n   34  					<p>Eine Zeitnahme erfolgt nur innerhalb der begonnenen Aufgabe. Es kann also am Bergwerk pausiert werden, ohne das diese Zeit angerechnet wird. Die Uhr pro Team/Fahrer läuft ab Auslosung der Station bis zum Eintreffen mit der Lösung der gestellten Aufgabe. Alle 6 Aufgaben müssen vor Zielschluß beendet sein.</p>\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\strecke.html.erb:\n   14  				<div class=\"panel-body\">\n   15  					<p>Da die Strecke individuell von den Teilnehmern geplant wird, variiert auch die Streckenlänge und damit die zu fahrenden Höhenmeter. Als grober Anhaltspunkt sind ca. 40km mit rund 1000 Hm zu erwarten.</p>\n   16: 					<p>Die Stationen werden sich alle innerhalb des unten abgebildeten Kartenabschnitts befinden, also im Umkreis von rund 10km um das <a href=\"www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a>. Sie werden nicht separat ausgeschildert, aber in der zugelosten Aufgabenbeschreibung genau beschrieben (GPS-Koordinaten, Ortsbeschreibung). Als Stationen können z.B. Grillhütten, Lokale oder Wegekreuze dienen.</p>\n   17  					\n   18  					<p>Während der Veranstaltung ist die Telefonnummer 06502 - 98 85 88 besetzt, falls sich jemand verfahren hat, es Fragen zu Stationen gibt oder das Flickzeug ausgegangen sein sollte. </p>\n   ..\n   43  				</div>\n   44  				<div class=\"panel-body\">\n   45: 					<p>Auf der Strecke wird keine Verpflegung angeboten. Da die einzelnen Aufgaben jedoch relativ kurz sind und Pausen nicht in die Zeitnahme eingehen, ist eine Verpflegung im <a href=\"http://www.bergwerk-fell.de/index.php?id=weinstein\" target=\"_blank\"><u>Bistro \"WeinStein\"</u></a> problemlos möglich.</p>\n   46  				</div>\n   47  			</div>			\n\n6 matches across 3 files\n\n\nSearching 27 files for \"wer gewinn\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   78  			<div class=\"panel panel-primary\">\n   79  				<div class=\"panel-heading\">\n   80: 					<h3>Wer gewinnt?</h3>\n   81  				</div>\n   82  				<div class=\"panel-body\">\n\n1 match in 1 file\n",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 22620,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "app/views/pages/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 7954,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1366,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/pages/ablauf.html.erb",
-			"settings":
-			{
-				"buffer_size": 3684,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/pages/strecke.html.erb",
-			"settings":
-			{
-				"buffer_size": 3504,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/registrations/new.html.erb",
-			"settings":
-			{
-				"buffer_size": 6718,
+				"buffer_size": 4708,
 				"line_ending": "Windows"
 			}
 		}
@@ -189,19 +147,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/roland/projects/rails-schnitzeljagd"
+		"/C/Projects/ruby/rails-schnitzeljagd",
+		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts"
 	],
 	"file_history":
 	[
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/Gemfile",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/contact_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/mailers/registration_mailer.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/contacts_controller.rb",
@@ -463,409 +424,37 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/views/layouts/application.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22620,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										291,
-										299
-									],
-									[
-										605,
-										613
-									],
-									[
-										959,
-										967
-									],
-									[
-										1280,
-										1288
-									],
-									[
-										1952,
-										1960
-									],
-									[
-										2313,
-										2321
-									],
-									[
-										2484,
-										2492
-									],
-									[
-										3090,
-										3098
-									],
-									[
-										3534,
-										3542
-									],
-									[
-										3823,
-										3831
-									],
-									[
-										3865,
-										3873
-									],
-									[
-										4045,
-										4053
-									],
-									[
-										4749,
-										4757
-									],
-									[
-										5190,
-										5198
-									],
-									[
-										5232,
-										5240
-									],
-									[
-										5399,
-										5407
-									],
-									[
-										6482,
-										6490
-									],
-									[
-										7024,
-										7032
-									],
-									[
-										7709,
-										7717
-									],
-									[
-										8090,
-										8098
-									],
-									[
-										8129,
-										8137
-									],
-									[
-										8809,
-										8817
-									],
-									[
-										9123,
-										9131
-									],
-									[
-										9478,
-										9486
-									],
-									[
-										9553,
-										9561
-									],
-									[
-										9887,
-										9895
-									],
-									[
-										9929,
-										9937
-									],
-									[
-										10612,
-										10620
-									],
-									[
-										10654,
-										10662
-									],
-									[
-										11023,
-										11031
-									],
-									[
-										11194,
-										11202
-									],
-									[
-										11800,
-										11808
-									],
-									[
-										12244,
-										12252
-									],
-									[
-										12533,
-										12541
-									],
-									[
-										12575,
-										12583
-									],
-									[
-										12755,
-										12763
-									],
-									[
-										13459,
-										13467
-									],
-									[
-										13900,
-										13908
-									],
-									[
-										13942,
-										13950
-									],
-									[
-										14109,
-										14117
-									],
-									[
-										15192,
-										15200
-									],
-									[
-										15739,
-										15747
-									],
-									[
-										15781,
-										15789
-									],
-									[
-										16494,
-										16502
-									],
-									[
-										16948,
-										16956
-									],
-									[
-										17033,
-										17041
-									],
-									[
-										17080,
-										17088
-									],
-									[
-										18164,
-										18176
-									],
-									[
-										18889,
-										18901
-									],
-									[
-										19333,
-										19345
-									],
-									[
-										20463,
-										20475
-									],
-									[
-										21388,
-										21400
-									],
-									[
-										22143,
-										22155
-									],
-									[
-										22529,
-										22539
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								22539,
-								22539
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 4,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4815.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/pages/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7954,
+						"buffer_size": 4708,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1098,
-								1098
+								3143,
+								3143
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								115,
-								115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/pages/ablauf.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3064,
-								3064
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/pages/strecke.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3504,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2923,
-								2923
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/registrations/new.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6718,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1272,
-								1272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 63.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
