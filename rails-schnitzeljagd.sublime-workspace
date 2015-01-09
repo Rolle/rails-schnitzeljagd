@@ -108,10 +108,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/registrations/new.html.erb",
+			"file": "app/views/pages/ablauf.html.erb",
 			"settings":
 			{
-				"buffer_size": 6718,
+				"buffer_size": 3684,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/strecke.html.erb",
+			"settings":
+			{
+				"buffer_size": 3529,
 				"line_ending": "Windows"
 			}
 		}
@@ -150,6 +158,7 @@
 		"/home/roland/projects/rails-schnitzeljagd",
 		"/home/roland/projects/rails-schnitzeljagd/app",
 		"/home/roland/projects/rails-schnitzeljagd/app/views",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations"
 	],
 	"file_history":
@@ -424,24 +433,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/registrations/new.html.erb",
-					"semi_transient": true,
+					"file": "app/views/pages/ablauf.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6718,
+						"buffer_size": 3684,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1658,
+								1658
 							]
 						],
 						"settings":
@@ -451,6 +460,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/pages/strecke.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2454,
+								2454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
