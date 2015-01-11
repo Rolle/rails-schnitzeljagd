@@ -119,8 +119,16 @@
 			"file": "app/views/pages/strecke.html.erb",
 			"settings":
 			{
-				"buffer_size": 3529,
+				"buffer_size": 3672,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 8384,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -449,8 +457,8 @@
 						"selection":
 						[
 							[
-								1658,
-								1658
+								3606,
+								3467
 							]
 						],
 						"settings":
@@ -459,7 +467,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -471,15 +479,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3529,
+						"buffer_size": 3672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2454,
-								2454
+								3315,
+								3315
 							]
 						],
 						"settings":
@@ -488,10 +496,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 748.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/pages/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7719,
+								7719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2193.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
