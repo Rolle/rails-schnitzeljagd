@@ -130,6 +130,16 @@
 				"buffer_size": 8384,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "Searching 27 files for \"höhenm\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   16  				</div>\n   17  				<div class=\"panel-body\">\n   18: 					<p>Bei der MTB-Schnitzeljagd müssen 6 Stationen rund um das <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a> mit Hilfe von GPS-Koordinaten in zufälliger Reihenfolge gefunden und dort Aufgaben gelöst werden. Start ist am 06.09.2015 um 10:00 Uhr am <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a>. Mitmachen kann jeder, der ein Fahrrad hat und damit um die 40km und 1400 Höhenmeter bewältigen kann. Gewonnen hat, wer alle Aufgaben in der kürzesten Zeit lösen konnte.</p>\n   19  				</div>\n   20  			</div>			\n   ..\n   52  				<div class=\"panel-body\">\n   53  					<p>Das muss jedes Team/jeder Fahrer selbst entscheiden! Die Reihenfolge der Stationen wird ausgelost und die gewählte Strecke muss von den Fahrern bestimmt werden. Daher gibt es auch keine abgesperrte Strecke oder Karten mit festgelegter Wegewahl.</p>\n   54: 					<p>Die Steckenlänge wird (je nach Wegewahl) um die 40km mit ca. 1000 Höhenmetern betragen.</p>	\n   55  					<p>Wer seine Strecke per GPS aufzeichnet und nach der Veranstaltung einsendet, nimmt an der Wahl zum besten Trail-Finder teil!</p>\n   56  				</div>\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\strecke.html.erb:\n   13  				</div>\n   14  				<div class=\"panel-body\">\n   15: 					<p>Da die Strecke individuell von den Teilnehmern geplant wird, variiert auch die Streckenlänge und damit die zu fahrenden Höhenmeter. Als grober Anhaltspunkt sind ca. 40km mit rund 1000 Hm zu erwarten.</p>\n   16  					<p>Die Stationen werden sich alle innerhalb des unten abgebildeten Kartenabschnitts befinden, also im Umkreis von rund 10km um das <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a>. Sie werden nicht separat ausgeschildert, aber in der zugelosten Aufgabenbeschreibung genau beschrieben (GPS-Koordinaten, Ortsbeschreibung). Als Stationen können z.B. Sehenswürdigkeiten, Naturdenkmale oder Wegekreuze dienen.</p>\n   17  					\n\n3 matches across 2 files\n\n\nSearching 27 files for \"HM\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\ablauf.html.erb:\n   13  				</div>\n   14  				<div class=\"panel-body\">\n   15: 					<p>Die Anmeldung und die Herausgabe der Startunterlagen (kleine Übersichtskarte, Notfallnummer) erfolgt ab 9.00 Uhr (<a href=\"http://www.bergwerk-fell.de/index.php?id=weinstein\" target=\"_blank\"><u>Bistro Besucherbergwerk</u></a>), gleichzeitig ziehen die Teilnehmer die erste Aufgabe (somit bleibt noch Zeit zum Planen). Um 9.30 Uhr erfolgt eine kurze Besprechung/Einweisung, danach gehen die Starter zum Parkplatz, wo der eigentliche Start erfolgt.</p>\n   16  					<p>Der Startschuß fällt um 10.00 Uhr auf dem Besucherparkplatz des <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerks Fel</u></a> (siehe <u><%= link_to \"Anfahrt\", pages_anfahrt_path %></u>) - die Starter brechen in verschiedene Richtungen zu ihren jeweiligen Zielen auf.</p>\n   17: 					<p> Gestartet wird in Le-Mans-Manier: die Räder werden vor dem Start in einem vorgegebenen Bereich abgestellt, die Starter stellen hinter der Startlinie auf. Nach erfolgtem Startschuß gehen/laufen/sprinten die Teilnehmer zum (hoffentlich) richtigen Rad, sitzen auf und fahren los.</p>\n   18  					Zeitplan:\n   19  					<ul>\n   ..\n   33  				<div class=\"panel-body\">\n   34  					<p>Das nächste Ziel wird per Los bestimmt - darin sind die GPS-Koordinaten und eine kurze Beschreibung des Zieles enthalten. Die Streckenwahl bleibt komplett den Teams überlassen, diese müssen also mit Hilfe der eigenen Karten und/oder GPS-Geräten eine Strecke suchen und das Ziel erreichen.</p>\n   35: 					<p>An jeder Station gibt eine Aufgabe zu lösen, die Lösung der Aufgabe ist dabei der Nachweis, das die jeweilige Station auch angefahren wurde. Dabei gibt es unterschiedliche Arten von Aufgaben - aber sicherlich für alle Teilnehmer lösbar. Lasst euch überraschen, es wird auf jeden Fall lustig!</p>\n   36  					<p>Die Form des Nachweises einer erfüllten Aufgabe ist unterschiedlich - mal muss etwas in die Karte eingetragen werden, ein anderes mal muss das Team etwas mit zum Ziel bringen, ein Foto schiessen etc.</p>				\n   37  				</div>\n   ..\n   42  				</div>\n   43  				<div class=\"panel-body\">\n   44: 					<p>Nachdem alle angegebenen Zielpunkte angefahren und alle Aufgaben erfüllt wurden, kann der letzte Rückweg zum <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a> angetreten werden. Das Ziel liegt dabei am Museum/Bistro - dort erfolgt die Zeitnahme und die Streckenkarten werden abgegeben.</p>\n   45  				</div>\n   46  			</div>					\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\impressum.html.erb:\n   40  					<p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>\n   41  					<p><strong>Haftung für Links</strong></p>\n   42: 					<p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>\n   43  					<p><strong>Urheberrecht</strong></p>\n   44  					<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>					\n   ..\n   53  					<p><strong>Datenschutz</strong></p>\n   54  					<p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. </p> \n   55: 					<p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. </p> <p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>\n   56  					<p> </p>\n   57  					<p><strong>Datenschutzerklärung für die Nutzung von Google Analytics</strong></p>\n   58  					<p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (\"Google\"). Google Analytics verwendet sog. \"Cookies\", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.</p>\n   59: 					<p>Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.</p>\n   60  					<p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a target=\"_blank\" href=\"http://tools.google.com/dlpage/gaoptout?hl=de\">http://tools.google.com/dlpage/gaoptout?hl=de</a>.</p>\n   61  					<p><strong>Auskunft, Löschung, Sperrung</strong></p>\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   26  					<p>Bei der MTB-Schnitzeljagd müssen Stationen mit dem Mountainbike anhand von vorgegebenen GPS-Koordinaten und Ortsbeschreibungen gefunden werden - dort werden dann kleine Aufgaben gelöst oder Fragen beantwortet. Die Reihenfolge der Stationen wird dabei ausgelost - jedes Team/jeder Fahrer muss jedoch die gleichen Stationen anfahren und die gleichen Aufgaben bewältigen. Eine neue Aufgabe kann erst gestartet (sprich zugelost) werden, wenn die vorherige abgeschlossen wurde, d.h. die Lösung bei der Rennleitung vorliegt. Die Stationen werden also nacheinander angefahren und eine Rückkehr zum Zielbereich ist nach jeder Aufgabe notwendig, um die Nächste zu erhalten. Die Teams/Fahrer treten dabei gegeneinander an, das Team/der Fahrer mit der geringsten Gesamtzeit gewinnt.</p>\n   27  \n   28: 					<p>Die Wegeplanung zum Erreichen der Wegepunkte wird den teilnehmenden Teams bzw. Einzelfahrern überlassen, d.h. jedes Team/jeder Fahrer muss sich eine eigene Strecke pber die vorgegebenen GPS-Koordinaten suchen.</p>\n   29  \n   30  					<p>An jeder Station erhält das Team/der Fahrer eine Aufgabe: das kann ein Rätsel sein, eine Geschicklichkeitsprüfung oder ein Mitbringsel. Nachdem die Aufgabe gelöst wurde, erfolgt die Rückkehr zum Bergwerk, dort wird per Los die nächste Aufgabe ermittelt. Für Teams ist es somit möglich, die Aufgaben zu teilen - so können Fahrer auch Aufgaben aussetzen und bei einer der nächsten Aufgaben wieder einsteigen. Oder jeder Fahrer fährt nur eine Aufgabe... Einzelfahrer haben diese Luxus natürlich nicht.</p>\n   ..\n   32  					<p>Wer mit allen sechs notwendigen Steinen, Antworten, Stempeln etc. wieder am Startpunkt, also dem <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a>, erscheint, gewinnt das goldene Schieferherz!</p>\n   33  \n   34: 					<p>Eine Zeitnahme erfolgt nur innerhalb der begonnenen Aufgabe. Es kann also am Bergwerk pausiert werden, ohne das diese Zeit angerechnet wird. Die Uhr pro Team/Fahrer läuft ab Auslosung der Station bis zum Eintreffen mit der Lösung der gestellten Aufgabe. Alle 6 Aufgaben müssen vor Zielschluß beendet sein.</p>\n   35  					<p>Teams/Fahrer mit der kürzesten Zeit pro Aufgabe erhalten ebenfalls einen Preis.</p>\n   36  				</div>\n   ..\n   38  			<div class=\"panel panel-primary\">\n   39  				<div class=\"panel-heading\">\n   40: 					<h3>Wer kann teilnehmen?</h3>\n   41  				</div>\n   42  				<div class=\"panel-body\">\n   43: 					<p>Teilnehmen dürfen Einzelfahrer und Teams bis 4 Mitgliedern. Pro Team muss mindestens ein Erwachsener mitfahren, Einzelfahrer müssen volljährig sein.</p>\n   44  					<p>Da die Zielstationen teilweise im Wald bzw. den Feldern rund um Fell liegen, ist ein Mountainbike sinnvoll.</p>\n   45  				</div>\n   ..\n   90  				</div>\n   91  				<div class=\"panel-body\">\n   92: 					<p>Der Start erfolgt als sogenannter \"Le-Mans-Start\", d. h. die Fahrräder werden vor dem Start im Startbereich abgelegt/abgestellt, nach dem Startschuss sprinten die Fahrer zu ihren Rädern, um aufzusitzen und loszufahren. Die Räder werden in der Reihenfolge abgelegt/-gestellt, in der die Teilnehmer zum Start erscheinen bzw. sich einschreiben.</p>\n   93: 					<p>Für alle Teilnehmer besteht Helmpflicht, es gelten die Regeln der StVO - die Teilnehmer verpflichten sich, diese einzuhalten. Außerdem legen wir Wert auf die <a href=\"http://www.dimb.de/aktivitaeten/open-trails/trail-rules\" target=\"_blank\"><u>DIMB-Trailrules</u></a>.</p>\n   94: 					<p>Einnahmen aus der Veranstaltung kommen dem Förderverein Besucherbergwerk e.V. zugute.</p>\n   95  				</div>\n   96  			</div>			\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\strecke.html.erb:\n   13  				</div>\n   14  				<div class=\"panel-body\">\n   15: 					<p>Da die Strecke individuell von den Teilnehmern geplant wird, variiert auch die Streckenlänge und damit die zu fahrenden Höhenmeter. Als grober Anhaltspunkt sind ca. 40km mit rund 1400 Hm zu erwarten.</p>\n   16  					<p>Die Stationen werden sich alle innerhalb des unten abgebildeten Kartenabschnitts befinden, also im Umkreis von rund 10km um das <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk Fell</u></a>. Sie werden nicht separat ausgeschildert, aber in der zugelosten Aufgabenbeschreibung genau beschrieben (GPS-Koordinaten, Ortsbeschreibung). Als Stationen können z.B. Sehenswürdigkeiten, Naturdenkmale oder Wegekreuze dienen.</p>\n   17  					\n   ..\n   25  				</div>\n   26  				<div class=\"panel-body\">\n   27: 					<p>Die Streckenplanung liegt in den Händen der Teilnehmer! Rechtsrum? Oder lieber links? Über den Berg oder drumrum?</p>\n   28: 					 <p>Wichtig ist nur, das alle Stationen angefahren werden. Dabei wird man unterwegs anderen Teilnehmern begegnen, die sich eventuell für eine andere Strecke und/oder Reihenfolge entschieden haben.</p>\n   29  					 <p>Die Zielpunkte bzw. die Wege dorthin liegen dabei in der historische Bergbaulandschaft rund um Fell und Thomm. Nebenbei erfährt (im doppelten Sinne) man also etwas über die Zeit der Bergbaus und die heute noch existierenden Relikte dieser Zeit.</p>\n   30  				</div>\n   ..\n   43  				</div>\n   44  				<div class=\"panel-body\">\n   45: 					<p>Auf der Strecke wird keine Verpflegung angeboten. Da die einzelnen Aufgaben jedoch relativ kurz sind und Pausen nicht in die Zeitnahme eingehen, ist eine Verpflegung im <a href=\"http://www.bergwerk-fell.de/index.php?id=weinstein\" target=\"_blank\"><u>Bistro \"WeinStein\"</u></a> problemlos möglich.</p>\n   46  				</div>\n   47  			</div>			\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\registrations\\index.html.erb:\n   26      	  				</div>\n   27      				<% end -%>\n   28:     				<p>Bisher sind folgende Teilnehmer bzw. Teams angemeldet:</p>\n   29      				<table class=\"table table-bordered table-striped\" id=\"user_table\">\n   30      					    <thead>\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\registrations\\new.html.erb:\n   27      				<% end -%>\n   28  \n   29: 					<p>Die Registrierung erfolgt über das folgende Formular. Am Tag der Veranstaltung muss die Teilnahmegebühr (pro Fahrer 10€, Einnahmen aus der Veranstaltung kommen dem <a href=\"http://bergwerk-fell.de/index.php?id=foerderverein\" targer=\"_blank\"><u>Förderverein Besucherbergwerk e.V.</u></a> zugute) vor dem Start am Bergwerk entrichtet werden. Anmeldungen ohne vorherige Registrierung sind bis zum Start möglich, das Teilnehmerfeld ist jedoch beschränkt und es besteht dann kein Anspruch auf Teilnahme und das Souvenir.</p>\n   30  					<p>Die Startplätze sind begrenzt.</p>\n   31  					<%= form_for @registration, :html => {:class=>\"form-horizontal\", :role=>\"form\"} do |f| %>\n\n26 matches across 6 files\n",
+			"settings":
+			{
+				"buffer_size": 17160,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
 		}
 	],
 	"build_system": "",
@@ -163,11 +173,10 @@
 	},
 	"expanded_folders":
 	[
-		"/home/roland/projects/rails-schnitzeljagd",
-		"/home/roland/projects/rails-schnitzeljagd/app",
-		"/home/roland/projects/rails-schnitzeljagd/app/views",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/pages",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations"
+		"/C/Projects/ruby/rails-schnitzeljagd",
+		"/C/Projects/ruby/rails-schnitzeljagd/app",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
 	],
 	"file_history":
 	[
@@ -323,6 +332,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"HM",
+			"höhenm",
 			"wer gewinn",
 			"www.bergwerk",
 			"Bergwerk",
@@ -441,7 +452,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -470,7 +481,7 @@
 						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -486,8 +497,8 @@
 						"selection":
 						[
 							[
-								3315,
-								3315
+								571,
+								571
 							]
 						],
 						"settings":
@@ -496,10 +507,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 748.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -515,8 +526,8 @@
 						"selection":
 						[
 							[
-								7719,
-								7719
+								4481,
+								4481
 							]
 						],
 						"settings":
@@ -525,10 +536,168 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2193.0,
+						"translation.y": 861.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17160,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										603,
+										609
+									],
+									[
+										1128,
+										1134
+									],
+									[
+										1577,
+										1583
+									],
+									[
+										2584,
+										2586
+									],
+									[
+										3313,
+										3315
+									],
+									[
+										4010,
+										4012
+									],
+									[
+										4673,
+										4675
+									],
+									[
+										5802,
+										5804
+									],
+									[
+										7881,
+										7883
+									],
+									[
+										9094,
+										9096
+									],
+									[
+										9522,
+										9524
+									],
+									[
+										11378,
+										11380
+									],
+									[
+										12339,
+										12341
+									],
+									[
+										12875,
+										12877
+									],
+									[
+										12961,
+										12963
+									],
+									[
+										13620,
+										13622
+									],
+									[
+										13704,
+										13706
+									],
+									[
+										13772,
+										13774
+									],
+									[
+										13981,
+										13983
+									],
+									[
+										14286,
+										14288
+									],
+									[
+										14429,
+										14431
+									],
+									[
+										15043,
+										15045
+									],
+									[
+										15221,
+										15223
+									],
+									[
+										15813,
+										15815
+									],
+									[
+										16194,
+										16196
+									],
+									[
+										16555,
+										16557
+									],
+									[
+										16587,
+										16589
+									],
+									[
+										16880,
+										16882
+									],
+									[
+										16955,
+										16957
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2158,
+								2158
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1740.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
