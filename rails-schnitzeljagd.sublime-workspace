@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
 				"resu",
 				"result_swift"
 			],
@@ -108,52 +112,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/assets/stylesheets/my.css.erb",
-			"settings":
-			{
-				"buffer_size": 1021,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 4708,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/pages/ablauf.html.erb",
-			"settings":
-			{
-				"buffer_size": 3667,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 27 files for \"urkund\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\registrations\\new.html.erb:\n   93  					    	<div class=\"col-sm-7\">\n   94  					      		<%= check_box_tag(:confirm, \"confirm\", false, {onclick: \"switch_confirm();\", id: \"confirm\"})%>\n   95: 					      		Es werden nur die absolut notwendigen Daten verlangt. Wir sammeln keine Daten und reichen diese auch nicht weiter. Die Daten werden elektronisch gespeichert und ausschließlich für Info-Mails, Ergebnislisten und Urkunden verwendet. Mit der Anmeldung bestätigen Sie, dass Sie mit dieser Verwendung Ihrer Daten einverstanden sind.\n   96  					    	</div>\n   97  				  		</div>\n\n1 match in 1 file\n\n\nSearching 27 files for \"losu\"\n\nC:\\Projects\\ruby\\rails-schnitzeljagd\\app\\views\\pages\\index.html.erb:\n   33  					<p>Wer mit allen sechs notwendigen Steinen, Antworten, Stempeln etc. wieder am Startpunkt, also dem <a href=\"http://www.bergwerk-fell\" target=\"_blank\"><u>Besucherbergwerk</u></a>, erscheint, gewinnt das goldene Schieferherz!</p>\n   34  \n   35: 					<p>Eine Zeitnahme erfolgt nur innerhalb der begonnenen Aufgabe. Es kann also am Bergwerk pausiert werden, ohne das diese Zeit angerechnet wird. Die Uhr pro Team/Fahrer läuft ab Auslosung der Station bis zum Eintreffen mit der Lösung der gestellten Aufgabe. Alle 6 Aufgaben müssen vor Zielschluß beendet sein.</p>\n   36  					<p>Teams/Fahrer mit der kürzesten Zeit pro Aufgabe erhalten ebenfalls einen Preis.</p>\n   37  				</div>\n\n1 match in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 1488,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "app/views/registrations/new.html.erb",
-			"settings":
-			{
-				"buffer_size": 6710,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/views/pages/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 8345,
+				"buffer_size": 8348,
 				"line_ending": "Unix"
 			}
 		}
@@ -199,17 +161,18 @@
 	],
 	"file_history":
 	[
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/strecke.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/Gemfile",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/new.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/index.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
@@ -325,8 +288,7 @@
 		"/C/Projects/ruby/BigBrother/app/views/dashboards/refres_sepa.js.erb",
 		"/C/Projects/ruby/BigBrother/app/views/status/loadbalancer.html.erb",
 		"/C/Projects/ruby/BigBrother/app/controllers/status_controller.rb",
-		"/C/Projects/ruby/BigBrother/config/torquebox.yml",
-		"/C/Projects/ruby/BigBrother/app/views/dashboards/refresh_order_confirmations.js.erb"
+		"/C/Projects/ruby/BigBrother/config/torquebox.yml"
 	],
 	"find":
 	{
@@ -351,6 +313,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hover",
+			"#668c3f",
+			"18778c",
+			"#09516d",
+			"#0b688c",
+			"#668C3F",
 			"losu",
 			"urkund",
 			"10:00",
@@ -441,6 +409,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"003D7C",
+			"#003D7C",
+			"#AFCA0B",
 			"asset-url",
 			"://luxpsqll27\\iks_biz;databaseName=IAM2000_DBPartner",
 			"://luxpsqll26\\iks_vita;databaseName=IAM2000_DBPartner_08",
@@ -474,192 +445,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/stylesheets/my.css.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1021,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/layouts/application.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								831,
-								831
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/pages/ablauf.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1765,
-								1765
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1488,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										494,
-										500
-									],
-									[
-										1219,
-										1223
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								678,
-								678
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 196.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/registrations/new.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6710,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5732,
-								5732
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1006.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "app/views/pages/index.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8345,
+						"buffer_size": 8348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2286,
-								2286
+								206,
+								206
 							]
 						],
 						"settings":
@@ -668,10 +471,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 588.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

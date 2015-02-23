@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
           </button>
           <!--a class="navbar-brand" href="#"Schnitzeljagd '15</a-->
-          <a class="navbar-brand" href="/"><%= image_tag "logo_biker_bergwerk_small.jpg", :class=>"img-responsive"%></a>
+          <!--<a class="navbar-brand" href="/"><%= image_tag "logo_biker_bergwerk_small.jpg", :class=>"img-responsive"%></a>-->
         </div>
 
         <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -51,14 +51,14 @@
             <li id="meldeliste"><%= link_to "Meldeliste", registrations_path %></li>
             <li id="anfahrt"><%= link_to "Anfahrt", pages_anfahrt_path %></li>            
             <li id="kontakt"><%= link_to "Kontakt", new_contact_path %></li>
-
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
             <% if user_signed_in? %>
               <li id="anfragen"><%= link_to "Anfragen", contacts_path %></li>
             <% end %>
             <li id="impressum"><%= link_to "Impressum", pages_impressum_path %></li>
-            <li id="impressum"><%= link_to image_tag("fb.png"), "https://www.facebook.com/events/320881614773774/", target: "_blank" %></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <a class="navbar-brand" href="/"><%= image_tag "logo_biker_bergwerk_small.jpg", :class=>"img-responsive"%></a>
+            <li id="fb"><%= link_to image_tag("fb.png"), "https://www.facebook.com/events/320881614773774/", target: "_blank" %></li>
           </ul>
         </nav>
       </div>
