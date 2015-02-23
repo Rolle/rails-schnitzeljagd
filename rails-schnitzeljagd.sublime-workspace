@@ -120,10 +120,18 @@
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/my.css.erb",
+			"file": "app/views/pages/ablauf.html.erb",
 			"settings":
 			{
-				"buffer_size": 1337,
+				"buffer_size": 3669,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 6714,
 				"line_ending": "Windows"
 			}
 		},
@@ -173,7 +181,8 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts",
-		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages"
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/pages",
+		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations"
 	],
 	"file_history":
 	[
@@ -461,7 +470,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -490,41 +499,69 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/assets/stylesheets/my.css.erb",
-					"semi_transient": true,
+					"file": "app/views/pages/ablauf.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1337,
+						"buffer_size": 3669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8,
-								14
+								931,
+								931
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/registrations/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6515,
+								6515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1736.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "app/views/layouts/application.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -550,7 +587,7 @@
 						"translation.y": 168.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
