@@ -1,0 +1,44 @@
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
+/usr/local/lib/ruby/gems/2.1.0/gems/bundler-1.7.4/lib/bundler/rubygems_integration.rb:256:in `block in replace_gem': puma is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /usr/local/bin/puma:22:in `<main>'
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
