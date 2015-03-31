@@ -42,3 +42,9 @@ Puma starting in single mode...
 * Environment: production
 * Listening on tcp://127.0.0.1:2222
 Use Ctrl-C to stop
+Puma starting in single mode...
+* Version 2.9.2 (ruby 2.1.4-p265), codename: Team High Five
+* Min threads: 0, max threads: 16
+* Environment: production
+* Listening on tcp://127.0.0.1:2222
+Use Ctrl-C to stop
