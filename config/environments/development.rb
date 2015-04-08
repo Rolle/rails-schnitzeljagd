@@ -44,8 +44,8 @@ config.action_mailer.smtp_settings = {
     address:              'mail.rolandschmitt.info',                                                     
     port:                 25,                                                                                
     #domain:               'example.com',                                                                    
-    user_name:            'rolle',                                                                           
-    password:             '7WildSchweine!',                                                                  
+    user_name:            'test',                                                                           
+    password:             'ploinggoin!',                                                                  
     authentication:       'plain',                                                                           
     enable_starttls_auto: true,                                                                              
     openssl_verify_mode: 'none'                                                                              
