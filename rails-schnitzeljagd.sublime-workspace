@@ -111,35 +111,16 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "config/environments/production.rb",
-			"settings":
-			{
-				"buffer_size": 4194,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/environments/development.rb",
-			"settings":
-			{
-				"buffer_size": 2727,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/registrations/new.html.erb",
-			"settings":
-			{
-				"buffer_size": 6722,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 311.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -169,12 +150,15 @@
 	[
 		"/home/roland/projects/rails-schnitzeljagd",
 		"/home/roland/projects/rails-schnitzeljagd/app",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets",
+		"/home/roland/projects/rails-schnitzeljagd/app/assets/images",
 		"/home/roland/projects/rails-schnitzeljagd/app/controllers",
 		"/home/roland/projects/rails-schnitzeljagd/app/helpers",
 		"/home/roland/projects/rails-schnitzeljagd/app/models",
 		"/home/roland/projects/rails-schnitzeljagd/app/views",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/contact_mailer",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registration_mailer",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations",
 		"/home/roland/projects/rails-schnitzeljagd/config",
@@ -183,12 +167,13 @@
 	],
 	"file_history":
 	[
+		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/config/environments/production.rb",
+		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
+		"/home/roland/projects/rails-schnitzeljagd/config/environments/development.rb",
 		"/home/roland/projects/rails-schnitzeljagd/app/controllers/registrations_controller.rb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/layouts/application.html.erb",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/index.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/pages/ablauf.html.erb",
-		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/new.html.erb",
-		"/home/roland/projects/rails-schnitzeljagd/config/environments/production.rb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/bootstrap.min.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/assets/stylesheets/my.css.erb",
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/layouts/application.html.erb",
@@ -225,7 +210,6 @@
 		"/C/Projects/ruby/rails-schnitzeljagd/app/views/registrations/_destroy.js.erb",
 		"/home/roland/projects/rails-schnitzeljagd/app/views/registrations/_form.html.erb",
 		"/home/roland/projects/rails-schnitzeljagd/config/routes.rb",
-		"/home/roland/projects/rails-schnitzeljagd/config/environments/development.rb",
 		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141115194634_create_registrations.rb",
 		"/home/roland/projects/rails-schnitzeljagd/app/models/registration.rb",
 		"/home/roland/projects/rails-schnitzeljagd/db/migrate/20141116124811_add_paid_to_registrations.rb",
@@ -314,7 +298,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -467,104 +451,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "config/environments/production.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3672,
-								3672
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 969.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/environments/development.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2727,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2203,
-								2203
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 260.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/registrations/new.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1619,
-								1619
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -601,15 +495,17 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "rails-schnitzeljagd.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -618,6 +514,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -630,6 +527,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
